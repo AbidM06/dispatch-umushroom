@@ -27,10 +27,10 @@
   ],
   "constraints": {
     "maxSevereTailLossPct": 18,
-    "modelledSevereTailPct": -17.9,
-    "modelledAllTargetsPct": 8.2,
-    "modelledAllReviewLevelsPct": -8.8,
-    "modelledAIDerating": -10.7,
+    "modelledSevereTailPct": -17.88,
+    "modelledAllTargetsPct": 8.18,
+    "modelledAllReviewLevelsPct": -8.83,
+    "modelledAIDerating": -10.66,
     "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts."
   },
   "currencyPolicy": "Developed-market positions hedged to sterling with rolling forwards; emerging-market names (TSM, EWY, EWZ, ITUB) unhedged; 15% sterling cash.",
@@ -94,7 +94,7 @@
       "name": "Nvidia",
       "bucket": "AI compute",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight",
       "weightPct": 5,
       "sizeGBP": 5000.0,
@@ -122,7 +122,7 @@
       "name": "Alphabet",
       "bucket": "AI compute",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight, lower conviction",
       "weightPct": 4,
       "sizeGBP": 4000.0,
@@ -176,7 +176,7 @@
       "name": "GE Vernova",
       "bucket": "AI power",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight",
       "weightPct": 9,
       "sizeGBP": 9000.0,
@@ -203,7 +203,7 @@
       "name": "Constellation Energy",
       "bucket": "AI power",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight",
       "weightPct": 9,
       "sizeGBP": 9000.0,
@@ -231,7 +231,7 @@
       "name": "Vistra",
       "bucket": "AI power",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight",
       "weightPct": 6,
       "sizeGBP": 6000.0,
@@ -259,7 +259,7 @@
       "name": "NextEra Energy",
       "bucket": "AI power",
       "currency": "USD",
-      "sterlingHedged": false,
+      "sterlingHedged": true,
       "view": "Overweight, lower conviction",
       "weightPct": 6,
       "sizeGBP": 6000.0,
@@ -535,5 +535,52 @@
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
     "Sterling hedge costs and the current Bank Rate"
-  ]
+  ],
+  "scenarios": {
+    "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are not modelled.",
+    "allTargets": {
+      "effectPct": 8.18,
+      "inputs": "each position's targetPct"
+    },
+    "allReviewLevels": {
+      "effectPct": -8.83,
+      "inputs": "each position's reviewPct"
+    },
+    "aiDerating": {
+      "effectPct": -10.66,
+      "shocksPct": {
+        "SPY": -8,
+        "TSM": -20,
+        "NVDA": -20,
+        "GOOGL": -12,
+        "EWY": -22,
+        "GEV": -18,
+        "CEG": -12,
+        "VST": -12,
+        "NEE": -5,
+        "EWZ": -6,
+        "ITUB": -6,
+        "GLD": 3
+      }
+    },
+    "severeTail": {
+      "effectPct": -17.88,
+      "shocksPct": {
+        "SPY": -15,
+        "TSM": -30,
+        "NVDA": -30,
+        "GOOGL": -18,
+        "EWY": -30,
+        "GEV": -25,
+        "CEG": -25,
+        "VST": -25,
+        "NEE": -20,
+        "EWZ": -12,
+        "ITUB": -12,
+        "GLD": 5
+      },
+      "limitPct": -18
+    },
+    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts."
+  }
 }
