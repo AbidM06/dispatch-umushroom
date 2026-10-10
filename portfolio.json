@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "label": "Paper portfolio for learning. Not investment advice.",
+  "name": "AI Transition Portfolio",
+  "startingCapitalGBP": 100000,
+  "window": {
+    "start": "2026-10-12",
+    "end": "2026-12-07",
+    "weeks": 8,
+    "performanceMeasuredFrom": "Monday 12 Oct opening prices"
+  },
+  "benchmark": {
+    "id": "SPX",
+    "name": "S&P 500 (SPY total return)",
+    "note": "Alpha is the portfolio's return minus SPY's, both from the same Monday open."
+  },
+  "fxGBPUSD": {
+    "value": 1.32344765,
+    "asOf": "2026-10-10T18:13Z",
+    "source": "Alpha Vantage"
+  },
+  "themes": [
+    "AI compute",
+    "AI power and grid (transition-themed, not ESG-screened)",
+    "Korea",
+    "Brazil"
+  ],
+  "constraints": {
+    "maxSevereTailLossPct": 18,
+    "modelledSevereTailPct": -17.9,
+    "modelledAllTargetsPct": 8.2,
+    "modelledAllReviewLevelsPct": -8.8,
+    "modelledAIDerating": -10.7,
+    "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts."
+  },
+  "currencyPolicy": "Developed-market positions hedged to sterling with rolling forwards; emerging-market names (TSM, EWY, EWZ, ITUB) unhedged; 15% sterling cash.",
+  "positions": [
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "bucket": "Core",
+      "currency": "USD",
+      "sterlingHedged": true,
+      "view": "Benchmark anchor",
+      "weightPct": 12,
+      "sizeGBP": 12000.0,
+      "refPriceUSD": 778.57,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 20.4,
+      "targetUSD": 810,
+      "reviewLevelUSD": 715,
+      "targetPct": 4.0,
+      "reviewPct": -8.2,
+      "entry": null,
+      "thesis": "Keeps the book from being a pure thematic bet; alpha is measured against this holding's total return.",
+      "thesisBreakers": [
+        "US 10-year yield above 5.5% with a Fed hike delivered (portfolio-wide trigger, not a stock thesis)"
+      ],
+      "catalysts": [
+        "US CPI 14 Oct",
+        "Fed 28 Oct"
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC (ADR)",
+      "bucket": "AI compute",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 10,
+      "sizeGBP": 10000.0,
+      "refPriceUSD": 453.31,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 29.2,
+      "targetUSD": 500,
+      "reviewLevelUSD": 400,
+      "targetPct": 10.3,
+      "reviewPct": -11.8,
+      "entry": null,
+      "thesis": "Earns from every AI chip designer; Q3 revenue ran about 2% above the top of its own guidance, 2nm ramps in H2.",
+      "thesisBreakers": [
+        "Gross margin guided below the 65-67% range or diluted by the 2nm ramp",
+        "2026 capex guide cut materially",
+        "Taiwan Strait escalation"
+      ],
+      "catalysts": [
+        "Q3 results Thu 15 Oct",
+        "October sales about 10 Nov"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "bucket": "AI compute",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 5,
+      "sizeGBP": 5000.0,
+      "refPriceUSD": 229.28,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 28.86,
+      "targetUSD": 255,
+      "reviewLevelUSD": 200,
+      "targetPct": 11.2,
+      "reviewPct": -12.8,
+      "entry": null,
+      "thesis": "Direct read on AI capex; held small because TSMC, Samsung and SK Hynix give the same demand without the customer concentration.",
+      "thesisBreakers": [
+        "Hyperscaler capex guidance cut",
+        "Export-control change that removes a major market",
+        "Funding failure at a top AI lab"
+      ],
+      "catalysts": [
+        "Hyperscaler results late Oct (unconfirmed)",
+        "Nvidia Q3 about 18 Nov (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "bucket": "AI compute",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight, lower conviction",
+      "weightPct": 4,
+      "sizeGBP": 4000.0,
+      "refPriceUSD": 351.66,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 15.05,
+      "targetUSD": 385,
+      "reviewLevelUSD": 310,
+      "targetPct": 9.5,
+      "reviewPct": -11.8,
+      "entry": null,
+      "thesis": "A spender with its own profits and chips, balancing the supplier-heavy compute sleeve; least researched, first to cut.",
+      "thesisBreakers": [
+        "Capex outruns cloud growth without a revenue response",
+        "Adverse antitrust remedy",
+        "Search share loss becomes visible in results"
+      ],
+      "catalysts": [
+        "Q3 results late Oct (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "EWY",
+      "name": "iShares MSCI South Korea ETF",
+      "bucket": "Korea",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 10,
+      "sizeGBP": 10000.0,
+      "refPriceUSD": 177.24,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 74.67,
+      "targetUSD": 200,
+      "reviewLevelUSD": 155,
+      "targetPct": 12.8,
+      "reviewPct": -12.5,
+      "entry": null,
+      "thesis": "Record memory-chip earnings (Samsung Q3 operating profit 107.4tn won) while the market sells the news; a rebound if AI worries ease.",
+      "thesisBreakers": [
+        "KOSPI closes below 6,000 (portfolio-wide trigger)",
+        "Evidence of a memory-cycle peak: DRAM contract prices roll over",
+        "Sustained heavy foreign selling"
+      ],
+      "catalysts": [
+        "Samsung final Q3 results late Oct (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "bucket": "AI power",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 9,
+      "sizeGBP": 9000.0,
+      "refPriceUSD": 1004.73,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 11.85,
+      "targetUSD": 1120,
+      "reviewLevelUSD": 900,
+      "targetPct": 11.5,
+      "reviewPct": -10.4,
+      "entry": null,
+      "thesis": "Grid and gas-turbine supplier with a $176bn backlog; forward multiple has compressed while estimates rose. Target set below the Street because the multiple is the risk.",
+      "thesisBreakers": [
+        "Margin miss or backlog conversion slowing at Q3",
+        "Data-centre orders stall",
+        "Large new wind losses"
+      ],
+      "catalysts": [
+        "Q3 results week of 19 Oct (day unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "bucket": "AI power",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 9,
+      "sizeGBP": 9000.0,
+      "refPriceUSD": 298.07,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 39.96,
+      "targetUSD": 335,
+      "reviewLevelUSD": 265,
+      "targetPct": 12.4,
+      "reviewPct": -11.1,
+      "entry": null,
+      "thesis": "Largest US nuclear fleet; carbon-free around-the-clock power that data centres need; a lot of de-rating has already happened.",
+      "thesisBreakers": [
+        "Hyperscaler contract flow stops",
+        "US 10-year above 5.5% (capital-heavy utility)",
+        "Federal support for nuclear withdrawn"
+      ],
+      "catalysts": [
+        "Q3 results early Nov (unconfirmed)",
+        "US midterms 3 Nov"
+      ]
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "bucket": "AI power",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight",
+      "weightPct": 6,
+      "sizeGBP": 6000.0,
+      "refPriceUSD": 161.48,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 49.17,
+      "targetUSD": 180,
+      "reviewLevelUSD": 145,
+      "targetPct": 11.5,
+      "reviewPct": -10.2,
+      "entry": null,
+      "thesis": "Nuclear and gas generator with 20-year Meta supply deals and a conditional $4.2bn federal loan; sized at 6% because most of the news is priced in.",
+      "thesisBreakers": [
+        "Federal loan falls through or terms are poor",
+        "2027 guidance cut below the low end of the range",
+        "Meta contract terms re-opened"
+      ],
+      "catalysts": [
+        "Loan closing",
+        "Q3 results early Nov (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "bucket": "AI power",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight, lower conviction",
+      "weightPct": 6,
+      "sizeGBP": 6000.0,
+      "refPriceUSD": 77.38,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 102.62,
+      "targetUSD": 84,
+      "reviewLevelUSD": 70,
+      "targetPct": 8.6,
+      "reviewPct": -9.5,
+      "entry": null,
+      "thesis": "Regulated Florida utility plus the largest US renewables developer; a lower-beta cushion if AI sentiment cracks. Valuation not yet checked.",
+      "thesisBreakers": [
+        "US 10-year above 5.5% or a Fed hike delivered",
+        "Adverse renewable-policy change"
+      ],
+      "catalysts": [
+        "Q3 results late Oct (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "EWZ",
+      "name": "iShares MSCI Brazil ETF",
+      "bucket": "Brazil",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight, staged",
+      "weightPct": 5,
+      "sizeGBP": 5000.0,
+      "refPriceUSD": 43.54,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 151.98,
+      "targetUSD": 48,
+      "reviewLevelUSD": 39,
+      "targetPct": 10.2,
+      "reviewPct": -10.4,
+      "entry": null,
+      "thesis": "Rate-cut and fiscal-credibility re-rating after the first round; JPMorgan's 'anti-AI market' hedge inside an AI-heavy book. Reserve of 7% decides after the 25 Oct runoff.",
+      "thesisBreakers": [
+        "Lula wins the runoff and the real gaps weaker",
+        "Real weaker than 5.2 per dollar",
+        "Copom does not cut in November"
+      ],
+      "catalysts": [
+        "Runoff Sun 25 Oct",
+        "Copom 3-4 Nov"
+      ]
+    },
+    {
+      "ticker": "ITUB",
+      "name": "Itau Unibanco (ADR)",
+      "bucket": "Brazil",
+      "currency": "USD",
+      "sterlingHedged": false,
+      "view": "Overweight, staged",
+      "weightPct": 3,
+      "sizeGBP": 3000.0,
+      "refPriceUSD": 10.16,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 390.78,
+      "targetUSD": 11.3,
+      "reviewLevelUSD": 9.2,
+      "targetPct": 11.2,
+      "reviewPct": -9.4,
+      "entry": null,
+      "thesis": "Cleanest way to own lower rates and a fiscal-credibility re-rating together; also an EWZ holding, so real exposure exceeds 3%.",
+      "thesisBreakers": [
+        "Lula wins the runoff",
+        "Credit deterioration in Q3 results",
+        "Selic held at 14% longer than hoped"
+      ],
+      "catalysts": [
+        "Runoff 25 Oct",
+        "Q3 results early Nov (unconfirmed)"
+      ]
+    },
+    {
+      "ticker": "GLD",
+      "name": "SPDR Gold Shares",
+      "bucket": "Defensive",
+      "currency": "USD",
+      "sterlingHedged": true,
+      "view": "Hedge",
+      "weightPct": 6,
+      "sizeGBP": 6000.0,
+      "refPriceUSD": 384.58,
+      "refPriceDate": "2026-10-09",
+      "plannedShares": 20.65,
+      "targetUSD": 400,
+      "reviewLevelUSD": 360,
+      "targetPct": 4.0,
+      "reviewPct": -6.4,
+      "entry": null,
+      "thesis": "Hedge for a geopolitical shock (Brent near $105 on the Iran conflict); weak when real yields rise, so sized at 6% and not relied on alone.",
+      "thesisBreakers": [
+        "Real yields rising sharply while geopolitical risk fades"
+      ],
+      "catalysts": [
+        "US CPI 14 Oct",
+        "Fed 28 Oct"
+      ]
+    }
+  ],
+  "cash": [
+    {
+      "id": "TBILLS",
+      "name": "T-bills / GBP cash",
+      "weightPct": 8,
+      "sizeGBP": 8000,
+      "role": "Defensive"
+    },
+    {
+      "id": "BR_RESERVE",
+      "name": "Brazil runoff reserve (cash)",
+      "weightPct": 7,
+      "sizeGBP": 7000,
+      "role": "Dry powder; deploy after 25 Oct runoff"
+    }
+  ],
+  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and EWY then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff.",
+  "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 5% unless the review level is hit and keep the reserve in bills.",
+  "verdicts": {
+    "HOLD": "Default. No action.",
+    "WATCH": "Something moved; named and monitored, no trade.",
+    "ACT": "A trade is proposed. Only on the conditions in actRules."
+  },
+  "actRules": [
+    "A position's review level or a drawdown step is hit",
+    "A price target is hit",
+    "A named thesis-breaker occurs",
+    "An early-warning trigger fires"
+  ],
+  "maxChangesPerWeek": 2,
+  "drawdownLadder": [
+    {
+      "atPct": -6,
+      "navGBP": 94000,
+      "action": "Review every thesis; cut GOOGL and NEE first."
+    },
+    {
+      "atPct": -10,
+      "navGBP": 90000,
+      "action": "Cut TSM, NVDA and EWY by a third and lift T-bills to 25%."
+    },
+    {
+      "atPct": -14,
+      "navGBP": 86000,
+      "action": "Drop to 50% invested."
+    },
+    {
+      "atPct": -18,
+      "navGBP": 82000,
+      "action": "Move everything to cash and reset."
+    }
+  ],
+  "triggers": [
+    {
+      "id": "HY_SPREAD",
+      "name": "US high-yield credit spread",
+      "source": "FRED BAMLH0A0HYM2",
+      "direction": "above",
+      "level": 3.75,
+      "unit": "%",
+      "reading": 3.15,
+      "readingDate": "2026-10-08"
+    },
+    {
+      "id": "US10Y",
+      "name": "US 10-year yield",
+      "source": "FRED DGS10",
+      "direction": "above",
+      "level": 5.5,
+      "unit": "%",
+      "reading": 5.24,
+      "readingDate": "2026-10-09"
+    },
+    {
+      "id": "KOSPI",
+      "name": "KOSPI close",
+      "source": "exchange close",
+      "direction": "below",
+      "level": 6000,
+      "unit": "index",
+      "reading": 6625.93,
+      "readingDate": "2026-10-08"
+    },
+    {
+      "id": "FED_OCT",
+      "name": "Fed hike at the 28 Oct meeting",
+      "source": "Fed announcement",
+      "direction": "delivered",
+      "level": null,
+      "unit": "event",
+      "reading": "about 17-20% priced",
+      "readingDate": "2026-10-10"
+    }
+  ],
+  "calendar": [
+    [
+      "2026-10-12",
+      "Taiwan reopens after holiday",
+      "Reported"
+    ],
+    [
+      "2026-10-13",
+      "JPMorgan, Goldman, Wells Fargo, Citi results",
+      "Third-party"
+    ],
+    [
+      "2026-10-14",
+      "US September CPI; ASML Q3; BofA, Morgan Stanley, BlackRock",
+      "Third-party"
+    ],
+    [
+      "2026-10-15",
+      "TSMC Q3 results, 14:00 Taiwan time",
+      "Confirmed by TSMC"
+    ],
+    [
+      "2026-10-19",
+      "GE Vernova Q3 results (week of)",
+      "Week only, third-party"
+    ],
+    [
+      "2026-10-25",
+      "Brazil presidential runoff",
+      "Confirmed"
+    ],
+    [
+      "2026-10-28",
+      "Fed decision (meeting 27-28 Oct)",
+      "Confirmed"
+    ],
+    [
+      "2026-11-03",
+      "US midterm elections",
+      "Standard calendar"
+    ],
+    [
+      "2026-11-03",
+      "Brazil Copom (3-4 Nov)",
+      "Confirmed"
+    ],
+    [
+      "2026-11-10",
+      "TSMC October sales (about)",
+      "Typical cadence"
+    ],
+    [
+      "2026-11-18",
+      "Nvidia Q3 FY27 results (about)",
+      "Unconfirmed"
+    ],
+    [
+      "2026-12-07",
+      "Final review against the S&P 500",
+      "My schedule"
+    ]
+  ],
+  "reflectionDates": [
+    {
+      "week": 4,
+      "date": "2026-11-09"
+    },
+    {
+      "week": 8,
+      "date": "2026-12-07"
+    }
+  ],
+  "unverified": [
+    "Current valuations for Nvidia, Alphabet and NextEra",
+    "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
+    "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
+    "Korea Friday close, and why Constellation rose 4.6% on Friday",
+    "Sterling hedge costs and the current Bank Rate"
+  ]
+}
