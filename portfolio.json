@@ -540,11 +540,11 @@
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are not modelled.",
     "allTargets": {
       "effectPct": 8.18,
-      "inputs": "each position's targetPct"
+      "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1)"
     },
     "allReviewLevels": {
       "effectPct": -8.83,
-      "inputs": "each position's reviewPct"
+      "inputs": "unrounded reviewLevelUSD / refPriceUSD - 1 for each position (the reviewPct field is that value rounded to 0.1)"
     },
     "aiDerating": {
       "effectPct": -10.66,
