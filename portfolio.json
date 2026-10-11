@@ -154,7 +154,7 @@
       "weightPct": 10,
       "sizeGBP": 10000.0,
       "refPriceUSD": 181.23,
-      "refPriceDate": "2026-10-11",
+      "refPriceDate": "unknown",
       "plannedShares": 65.18,
       "targetUSD": 204.5,
       "reviewLevelUSD": 158.5,
@@ -171,7 +171,8 @@
         "Samsung final Q3 results late Oct (unconfirmed)"
       ],
       "isin": "LU1900066975",
-      "priceNote": "EUR (field names say USD for historical reasons). Reference is the fund NAV shown on the owner's broker screen (seen 11 Oct; the NAV's own date is not shown, so unverified) (not a traded price); the fill on Monday sets the entry. Targets use the same percentages as the US EWY ETF it replaced."
+      "priceNote": "EUR (field names say USD for historical reasons). Reference is the fund NAV shown on the owner's broker screen (seen 11 Oct; the NAV's own date is not shown, so unverified) (not a traded price); the fill on Monday sets the entry. Targets use the same percentages as the US EWY ETF it replaced.",
+      "priceObservedOn": "2026-10-11"
     },
     {
       "ticker": "GEV",
@@ -381,7 +382,7 @@
       "role": "Dry powder; deploy after 25 Oct runoff"
     }
   ],
-  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff. The second half is bought only if TSMC's results fire none of the named TSM thesis breakers (gross-margin guide below 65-67%, material capex cut); if one fires, the tranche stays in bills and the day is an ACT decision.",
+  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff. Each second half is bought only if that holding's own named thesis breakers (see its entry) and the portfolio-wide triggers have not fired by then; TSM's include a gross-margin guide below 65-67% or a material capex cut at TSMC's results. For any holding whose breaker has fired, the tranche stays in bills and the day is an ACT decision.",
   "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 5% unless the review level is hit and keep the reserve in bills. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
   "verdicts": {
     "HOLD": "Default. No action.",
