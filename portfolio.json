@@ -146,7 +146,7 @@
     },
     {
       "ticker": "LKOR",
-      "name": "Amundi MSCI Korea UCITS ETF Acc (Xetra, EUR)",
+      "name": "Amundi MSCI Korea UCITS ETF Acc (EUR)",
       "bucket": "Korea",
       "currency": "EUR",
       "sterlingHedged": false,
