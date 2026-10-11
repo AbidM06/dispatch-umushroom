@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-10",
+  "phase": "pre-entry",
+  "verdict": "HOLD",
+  "verdictReason": "Edition zero. Nothing is held yet; no trade today. Monday 12 Oct will be ACT (scheduled entry, per the entryPlan rule in actRules).",
+  "navGBP": 100000,
+  "navNote": "Reference value at 9 Oct closes before entry. Performance is measured from Monday's opening prices.",
+  "returnPct": 0.0,
+  "benchmarkReturnPct": 0.0,
+  "alphaPct": 0.0,
+  "drawdownFromPeakPct": 0.0,
+  "changesThisWeek": 0,
+  "positions": {
+    "SPY": {
+      "price": 778.57,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "TSM": {
+      "price": 453.31,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "NVDA": {
+      "price": 229.28,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "GOOGL": {
+      "price": 351.66,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "LKOR": {
+      "price": 181.23,
+      "asOf": "2026-10-11",
+      "source": "Owner's broker screen, fund NAV (EUR); NAV date not shown, seen 11 Oct",
+      "status": "unverified",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "GEV": {
+      "price": 1004.73,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "CEG": {
+      "price": 298.07,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "VST": {
+      "price": 161.48,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "NEE": {
+      "price": 77.38,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "EWZ": {
+      "price": 43.54,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "ITUB": {
+      "price": 10.16,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    },
+    "GLD": {
+      "price": 384.58,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (planning document)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": ""
+    }
+  },
+  "triggers": {
+    "HY_SPREAD": {
+      "reading": 3.15,
+      "asOf": "2026-10-08",
+      "fired": false
+    },
+    "US10Y": {
+      "reading": 5.24,
+      "asOf": "2026-10-09",
+      "fired": false
+    },
+    "KOSPI": {
+      "reading": 6625.93,
+      "asOf": "2026-10-08",
+      "fired": false
+    },
+    "FED_OCT": {
+      "reading": "about 17-20% priced",
+      "asOf": "2026-10-10",
+      "fired": false
+    }
+  },
+  "unverified": [
+    "Current valuations for Nvidia, Alphabet and NextEra",
+    "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
+    "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
+    "Korea Friday close, and why Constellation rose 4.6% on Friday",
+    "Sterling hedge costs and the current Bank Rate"
+  ]
+}
