@@ -195,7 +195,7 @@
         "Large new wind losses"
       ],
       "catalysts": [
-        "Q3 results week of 19 Oct (day unconfirmed)"
+        "Q3 results 28 Oct (company calendar, per Codex review; verify)"
       ]
     },
     {
@@ -537,7 +537,7 @@
     "Sterling hedge costs and the current Bank Rate"
   ],
   "scenarios": {
-    "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are not modelled.",
+    "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
     "allTargets": {
       "effectPct": 8.18,
       "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1)"
@@ -581,6 +581,13 @@
       },
       "limitPct": -18
     },
-    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts."
-  }
+    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts.",
+    "fxSensitivity": {
+      "unhedgedWeightPct": 28,
+      "severeTailWithGbpUp1Pct": -18.09,
+      "perOnePctGbpRisePp": 0.22,
+      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -18.09%, just past the cap. Owner to decide: trim the unhedged sleeve or accept the cap as price-only."
+    }
+  },
+  "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it."
 }
