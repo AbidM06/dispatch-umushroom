@@ -3,7 +3,7 @@
   "asOf": "2026-10-10",
   "phase": "pre-entry",
   "verdict": "HOLD",
-  "verdictReason": "Edition zero. Nothing is held yet; entry is at Monday 12 Oct's open.",
+  "verdictReason": "Edition zero. Nothing is held yet; no trade today. Monday 12 Oct will be ACT (scheduled entry, per the entryPlan rule in actRules).",
   "navGBP": 100000,
   "navNote": "Reference value at 9 Oct closes before entry. Performance is measured from Monday's opening prices.",
   "returnPct": 0.0,
