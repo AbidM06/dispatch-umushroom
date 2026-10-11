@@ -153,11 +153,11 @@
       "view": "Overweight",
       "weightPct": 10,
       "sizeGBP": 10000.0,
-      "refPriceUSD": 178.34,
-      "refPriceDate": "2026-10-09",
-      "plannedShares": 66.24,
-      "targetUSD": 201.2,
-      "reviewLevelUSD": 156.0,
+      "refPriceUSD": 181.23,
+      "refPriceDate": "2026-10-11",
+      "plannedShares": 65.18,
+      "targetUSD": 204.5,
+      "reviewLevelUSD": 158.5,
       "targetPct": 12.8,
       "reviewPct": -12.5,
       "entry": null,
@@ -171,7 +171,7 @@
         "Samsung final Q3 results late Oct (unconfirmed)"
       ],
       "isin": "LU1900066975",
-      "priceNote": "Prices and levels for this row are in EUR (field names say USD for historical reasons). Targets use the same percentages as the US EWY ETF it replaced."
+      "priceNote": "EUR (field names say USD for historical reasons). Reference is the fund NAV shown on the owner's broker screen on 11 Oct (not a traded price); the fill on Monday sets the entry. Targets use the same percentages as the US EWY ETF it replaced."
     },
     {
       "ticker": "GEV",
@@ -538,7 +538,7 @@
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
     "Sterling hedge costs and the current Bank Rate",
-    "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; EUR price is Alpha Vantage's Xetra close, EUR/USD effect on this row not modelled"
+    "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",

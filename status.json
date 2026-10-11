@@ -45,10 +45,10 @@
       "thesisNote": ""
     },
     "LKOR": {
-      "price": 178.34,
-      "asOf": "2026-10-09",
-      "source": "Alpha Vantage Xetra close (LKOR.DEX, EUR)",
-      "status": "ok",
+      "price": 181.23,
+      "asOf": "2026-10-11",
+      "source": "Owner's broker screen: Amundi MSCI Korea UCITS ETF Acc NAV (EUR)",
+      "status": "reference",
       "thesis": "intact",
       "thesisNote": ""
     },
