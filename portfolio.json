@@ -171,7 +171,7 @@
         "Samsung final Q3 results late Oct (unconfirmed)"
       ],
       "isin": "LU1900066975",
-      "priceNote": "EUR (field names say USD for historical reasons). Reference is the fund NAV shown on the owner's broker screen on 11 Oct (not a traded price); the fill on Monday sets the entry. Targets use the same percentages as the US EWY ETF it replaced."
+      "priceNote": "EUR (field names say USD for historical reasons). Reference is the fund NAV shown on the owner's broker screen (seen 11 Oct; the NAV's own date is not shown, so unverified) (not a traded price); the fill on Monday sets the entry. Targets use the same percentages as the US EWY ETF it replaced."
     },
     {
       "ticker": "GEV",

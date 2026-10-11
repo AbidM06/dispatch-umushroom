@@ -47,8 +47,8 @@
     "LKOR": {
       "price": 181.23,
       "asOf": "2026-10-11",
-      "source": "Owner's broker screen: Amundi MSCI Korea UCITS ETF Acc NAV (EUR)",
-      "status": "reference",
+      "source": "Owner's broker screen, fund NAV (EUR); NAV date not shown, seen 11 Oct",
+      "status": "unverified",
       "thesis": "intact",
       "thesisNote": ""
     },
