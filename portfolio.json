@@ -402,7 +402,7 @@
     {
       "atPct": -10,
       "navGBP": 90000,
-      "action": "Cut TSM, NVDA and EWY by a third and lift T-bills to 25%."
+      "action": "Cut TSM, NVDA and EWY by a third, convert any undeployed Brazil reserve to T-bills, then sell the remaining equity pro rata until T-bills are 25% of NAV."
     },
     {
       "atPct": -14,
