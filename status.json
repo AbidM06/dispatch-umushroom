@@ -44,11 +44,11 @@
       "thesis": "intact",
       "thesisNote": ""
     },
-    "EWY": {
-      "price": 177.24,
+    "LKOR": {
+      "price": 178.34,
       "asOf": "2026-10-09",
-      "source": "Alpha Vantage close (planning document)",
-      "status": "reference",
+      "source": "Alpha Vantage Xetra close (LKOR.DEX, EUR)",
+      "status": "ok",
       "thesis": "intact",
       "thesisNote": ""
     },

@@ -33,7 +33,7 @@
     "modelledAIDerating": -10.66,
     "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts."
   },
-  "currencyPolicy": "Developed-market positions hedged to sterling with rolling forwards; emerging-market names (TSM, EWY, EWZ, ITUB) unhedged; 15% sterling cash.",
+  "currencyPolicy": "Developed-market positions hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ, ITUB) unhedged; 15% sterling cash.",
   "positions": [
     {
       "ticker": "SPY",
@@ -145,23 +145,23 @@
       ]
     },
     {
-      "ticker": "EWY",
-      "name": "iShares MSCI South Korea ETF",
+      "ticker": "LKOR",
+      "name": "Amundi MSCI Korea UCITS ETF Acc (Xetra, EUR)",
       "bucket": "Korea",
-      "currency": "USD",
+      "currency": "EUR",
       "sterlingHedged": false,
       "view": "Overweight",
       "weightPct": 10,
       "sizeGBP": 10000.0,
-      "refPriceUSD": 177.24,
+      "refPriceUSD": 178.34,
       "refPriceDate": "2026-10-09",
-      "plannedShares": 74.67,
-      "targetUSD": 200,
-      "reviewLevelUSD": 155,
+      "plannedShares": 66.24,
+      "targetUSD": 201.2,
+      "reviewLevelUSD": 156.0,
       "targetPct": 12.8,
       "reviewPct": -12.5,
       "entry": null,
-      "thesis": "Samsung guided a record consolidated Q3 operating profit of 107.4tn won (no divisional split, so memory is not confirmed separately) while the market sells the news; a rebound if AI worries ease.",
+      "thesis": "Samsung guided a record consolidated Q3 operating profit of 107.4tn won (no divisional split, so memory is not confirmed separately) while the market sells the news; a rebound if AI worries ease. Held through the Amundi UCITS fund because US-listed EWY is not available on the owner's platform; it tracks MSCI Korea 20/35 (Samsung about 26%, SK Hynix about 14% on 31 Jul factsheet), is synthetic (swap) and costs 0.45% a year.",
       "thesisBreakers": [
         "KOSPI closes below 6,000 (portfolio-wide trigger)",
         "Evidence of a memory-cycle peak: DRAM contract prices roll over",
@@ -169,7 +169,9 @@
       ],
       "catalysts": [
         "Samsung final Q3 results late Oct (unconfirmed)"
-      ]
+      ],
+      "isin": "LU1900066975",
+      "priceNote": "Prices and levels for this row are in EUR (field names say USD for historical reasons). Targets use the same percentages as the US EWY ETF it replaced."
     },
     {
       "ticker": "GEV",
@@ -379,7 +381,7 @@
       "role": "Dry powder; deploy after 25 Oct runoff"
     }
   ],
-  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and EWY then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff. The second half is bought only if TSMC's results fire none of the named TSM thesis breakers (gross-margin guide below 65-67%, material capex cut); if one fires, the tranche stays in bills and the day is an ACT decision.",
+  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff. The second half is bought only if TSMC's results fire none of the named TSM thesis breakers (gross-margin guide below 65-67%, material capex cut); if one fires, the tranche stays in bills and the day is an ACT decision.",
   "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 5% unless the review level is hit and keep the reserve in bills. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
   "verdicts": {
     "HOLD": "Default. No action.",
@@ -403,7 +405,7 @@
     {
       "atPct": -10,
       "navGBP": 90000,
-      "action": "Cut TSM, NVDA and EWY by a third, convert any undeployed Brazil reserve to T-bills, then sell the remaining equity pro rata until T-bills are 25% of NAV."
+      "action": "Cut TSM, NVDA and LKOR by a third, convert any undeployed Brazil reserve to T-bills, then sell the remaining equity pro rata until T-bills are 25% of NAV."
     },
     {
       "atPct": -14,
@@ -535,7 +537,8 @@
     "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
-    "Sterling hedge costs and the current Bank Rate"
+    "Sterling hedge costs and the current Bank Rate",
+    "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; EUR price is Alpha Vantage's Xetra close, EUR/USD effect on this row not modelled"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
@@ -554,7 +557,7 @@
         "TSM": -20,
         "NVDA": -20,
         "GOOGL": -12,
-        "EWY": -22,
+        "LKOR": -22,
         "GEV": -18,
         "CEG": -12,
         "VST": -12,
@@ -571,7 +574,7 @@
         "TSM": -30,
         "NVDA": -30,
         "GOOGL": -18,
-        "EWY": -30,
+        "LKOR": -30,
         "GEV": -25,
         "CEG": -25,
         "VST": -25,
