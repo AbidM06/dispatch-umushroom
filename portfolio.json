@@ -591,9 +591,10 @@
       "unhedgedWeightPct": 28,
       "severeTailWithGbpUp1Pct": -18.09,
       "perOnePctGbpRisePp": 0.22,
-      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -18.09%, just past the cap. Owner to decide: trim the unhedged sleeve or accept the cap as price-only."
+      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -18.09%, just past the cap. Settled by the owner (D-002, 11 Oct): the cap is accepted as a price-only limit and the unhedged sleeve is kept."
     }
   },
   "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it.",
-  "ladderBasis": "atPct is controlling and is measured from the running NAV peak (status.json drawdownFromPeakPct). navGBP is only the illustrative level while the peak is the 100,000 starting capital."
+  "ladderBasis": "atPct is controlling and is measured from the running NAV peak (status.json drawdownFromPeakPct). navGBP is only the illustrative level while the peak is the 100,000 starting capital.",
+  "entryChangeRule": "Initial construction on 12 Oct counts as one change, and the conditional second tranche after TSMC's results counts as one change. Ladder actions stay exempt under ladderRule."
 }
