@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-12",
   "phase": "pre-entry",
-  "verdict": "HOLD",
-  "verdictReason": "Edition zero. Nothing is held yet; no trade today. Monday 12 Oct will be ACT (scheduled entry, per the entryPlan rule in actRules).",
+  "verdict": "ACT",
+  "verdictReason": "Edition zero, entry day. Nothing is held until Monday's open; the scheduled entry is an ACT (entryPlan in actRules), including IREN at 4% in place of Itau (decision D-005). Prices shown are 9 Oct closes.",
   "navGBP": 100000,
   "navNote": "Reference value at 9 Oct closes before entry. Performance is measured from Monday's opening prices.",
   "returnPct": 0.0,
