@@ -375,7 +375,14 @@
       "name": "Index-linked gilt fund (BlackRock, over 5 years): the defensive sleeve. Not T-bills or cash",
       "weightPct": 8,
       "sizeGBP": 8000,
-      "role": "Defensive. Long duration (about 17.9 years on the factsheet for this index), so it falls when real yields rise; the id TBILLS is kept for compatibility"
+      "role": "Defensive. Long duration (about 17.9 years on the factsheet for this index), so it falls when real yields rise; the id TBILLS is kept for compatibility",
+      "priced": true,
+      "currency": "GBP",
+      "units": 11368.4809,
+      "refPriceGBP": 0.7037,
+      "refPriceNote": "Units and the GBP 8,000 order value are from the owner's broker screen on 12 Oct (read from a screenshot); the unit price is derived as 8,000 / units, so it is a reference, not a fill",
+      "reviewPctFromRef": -10,
+      "reviewNote": "No price target: it is a hedge. A 10% fall in the fund (about 0.8% of NAV) prompts a review of whether the defensive sleeve is defending (D-006)"
     },
     {
       "id": "BR_RESERVE",

@@ -107,6 +107,14 @@
       "status": "reference",
       "thesis": "intact",
       "thesisNote": "Anthropic contract is an unconfirmed report; Monday open may gap."
+    },
+    "TBILLS": {
+      "price": 0.7037,
+      "asOf": "2026-10-12",
+      "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": "Index-linked gilt fund, long duration. Not on Alpha Vantage: the daily price must come from the owner or the fund's published NAV, and is marked unverified when it cannot be checked. Counts toward NAV as a priced holding, not as cash."
     }
   },
   "triggers": {
