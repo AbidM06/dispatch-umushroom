@@ -27,14 +27,14 @@
   ],
   "constraints": {
     "maxSevereTailLossPct": 18,
-    "modelledSevereTailPct": -19.12,
-    "modelledAllTargetsPct": 8.84,
-    "modelledAllReviewLevelsPct": -9.37,
-    "modelledAIDerating": -11.68,
+    "modelledSevereTailPct": -19.24,
+    "modelledAllTargetsPct": 8.94,
+    "modelledAllReviewLevelsPct": -9.47,
+    "modelledAIDerating": -11.74,
     "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts.",
-    "capStatus": "Modelled severe tail (-19.12%) is beyond the -18% limit by 1.12pp after D-005. On 12 Oct the owner decided to keep IREN at 4% and accepts the breach; the -18% limit is left unchanged and the breach stays on record. Claude recorded a dissent (3% at most until the contract is confirmed). The IREN shocks (-40% severe, -30% derating) were accepted by the owner on 12 Oct on condition they are evidence-backed. Evidence (Alpha Vantage weekly adjusted closes for IREN, Jun 2025 to 9 Oct 2026, retrieved 12 Oct): the worst 4-week fall was -43.9%, the worst 8-week fall -41.7%, and the deepest peak-to-trough on weekly closes was -47.1% (63.54 on 29 May to 33.62 on 17 Jul 2026), so the -40% severe and -30% derating shocks are not above what the stock has already done. Note the history is lighter than the worst case: at -47% the tail would be about -19.4%."
+    "capStatus": "Modelled severe tail (-19.24%) is beyond the -18% limit by 1.24pp after D-005 (IREN 4%) and D-006 (EWZ 6%). The owner decided on 12 Oct to keep IREN at 4% and EWZ at 6% and accepts the breach; the -18% limit is left unchanged and the breach stays on record. Claude recorded a dissent on IREN (3% at most until the contract is confirmed). The IREN shocks (-40% severe, -30% derating) were accepted by the owner on condition they are evidence-backed: IREN's worst 4-week fall was -43.9%, its worst 8-week fall -41.7% and its deepest peak-to-trough -47.1% (weekly closes, Jun 2025 to Oct 2026). At -47% the tail would be about -19.5%. The 8% index-linked gilt fund is held at zero in this test; see scenarios.linkerSensitivity."
   },
-  "currencyPolicy": "Developed-market positions (including IREN) hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ) unhedged; 14% sterling cash and Brazil reserve.",
+  "currencyPolicy": "Developed-market positions (including IREN) hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ) unhedged; 13% sterling: an 8% index-linked gilt fund and a 5% Brazil reserve held in cash.",
   "positions": [
     {
       "ticker": "SPY",
@@ -290,18 +290,18 @@
       "bucket": "Brazil",
       "currency": "USD",
       "sterlingHedged": false,
-      "view": "Overweight, staged",
-      "weightPct": 5,
-      "sizeGBP": 5000.0,
+      "view": "Overweight",
+      "weightPct": 6,
+      "sizeGBP": 6000.0,
       "refPriceUSD": 43.54,
       "refPriceDate": "2026-10-09",
-      "plannedShares": 151.98,
+      "plannedShares": 182.38,
       "targetUSD": 48,
       "reviewLevelUSD": 39,
       "targetPct": 10.2,
       "reviewPct": -10.4,
       "entry": null,
-      "thesis": "Rate-cut and fiscal-credibility re-rating after the first round; JPMorgan's 'anti-AI market' hedge inside an AI-heavy book. Reserve of 7% decides after the 25 Oct runoff.",
+      "thesis": "Rate-cut and fiscal-credibility re-rating after the first round; JPMorgan's 'anti-AI market' hedge inside an AI-heavy book. Reserve of 5% decides after the 25 Oct runoff.",
       "thesisBreakers": [
         "Lula wins the runoff and the real gaps weaker",
         "Real weaker than 5.2 per dollar",
@@ -318,7 +318,7 @@
       "bucket": "AI compute",
       "currency": "USD",
       "sterlingHedged": true,
-      "view": "Overweight, staged, high volatility",
+      "view": "Overweight, high volatility",
       "weightPct": 4,
       "sizeGBP": 4000.0,
       "refPriceUSD": 35.19,
@@ -372,21 +372,21 @@
   "cash": [
     {
       "id": "TBILLS",
-      "name": "T-bills / GBP cash",
-      "weightPct": 7,
-      "sizeGBP": 7000,
-      "role": "Defensive"
+      "name": "Index-linked gilt fund (BlackRock, over 5 years): the defensive sleeve. Not T-bills or cash",
+      "weightPct": 8,
+      "sizeGBP": 8000,
+      "role": "Defensive. Long duration (about 17.9 years on the factsheet for this index), so it falls when real yields rise; the id TBILLS is kept for compatibility"
     },
     {
       "id": "BR_RESERVE",
       "name": "Brazil runoff reserve (cash)",
-      "weightPct": 7,
-      "sizeGBP": 7000,
+      "weightPct": 5,
+      "sizeGBP": 5000,
       "role": "Dry powder; deploy after 25 Oct runoff"
     }
   ],
-  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ staged; IREN: a first tranche of 2% of NAV (GBP 2,000, about 75 shares at the $35.19 reference and a GBP/USD rate of about 1.32) bought at Monday's open price, sized in pounds not shares; if the open is more than 10% above the reference ($38.71) nothing is bought at the open and the day is reviewed instead; the other 2% only once IREN or Anthropic confirms the contract and IREN's own breakers have not fired, and counted as the same change as the TSM/NVDA/LKOR second halves if confirmed by 15 Oct, otherwise bought no earlier than the next week's change allowance (decision D-005); 7% Brazil reserve decided after the 25 Oct runoff. Each second half is bought only if that holding's own named thesis breakers (see its entry) and the portfolio-wide triggers have not fired by then; TSM's include a gross-margin guide below 65-67% or a material capex cut at TSMC's results. For any holding whose breaker has fired, the tranche stays in bills and the day is an ACT decision.",
-  "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 5% unless the review level is hit and keep the reserve in bills. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
+  "entryPlan": "Enter everything at Monday's open (12 Oct), in full: every position at its planned weight, including TSM 10%, NVDA 5%, LKOR 10% and IREN 4% (owner decision D-006, which replaces the staged entries in D-005 and the earlier half-size plan). The defensive sleeve is a BlackRock index-linked gilt fund (over 5 years) at 8%, a long-duration fund and not T-bills. The Brazil reserve is 5% cash, decided after the 25 Oct runoff. There is no second tranche. TSMC reports on Thu 15 Oct, three days after entry; TSM's thesis breakers (gross-margin guide below 65-67%, a material capex cut) are ACT triggers for that holding, not entry gates. IREN's contract report is unconfirmed and its breakers apply from entry.",
+  "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 6% unless the review level is hit and keep the reserve in cash. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
   "verdicts": {
     "HOLD": "Default. No action.",
     "WATCH": "Something moved; named and monitored, no trade.",
@@ -397,7 +397,7 @@
     "A price target is hit",
     "A named thesis-breaker occurs",
     "An early-warning trigger fires",
-    "A trade scheduled in entryPlan (initial construction and its conditional second tranche)"
+    "A trade scheduled in entryPlan (initial construction on 12 Oct)"
   ],
   "maxChangesPerWeek": 2,
   "drawdownLadder": [
@@ -543,20 +543,22 @@
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
     "Sterling hedge costs and the current Bank Rate",
     "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled",
-    "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, accepted by the owner on 12 Oct on condition it is evidence-backed (weekly closes show a worst 4-week fall of -43.9% and a peak-to-trough of -47.1%); IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap"
+    "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, accepted by the owner on 12 Oct on condition it is evidence-backed (weekly closes show a worst 4-week fall of -43.9% and a peak-to-trough of -47.1%); IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap",
+    "The defensive sleeve is an index-linked gilt fund (long duration), not T-bills: the drawdown ladder and reserve rule still say 'T-bills'; the owner chooses the instrument if a rung triggers",
+    "The owner's exact fund factsheet (duration, share class) has not been checked; the 17.9-year figure is for the same index from another BlackRock fund"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
     "allTargets": {
-      "effectPct": 8.84,
+      "effectPct": 8.94,
       "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1)"
     },
     "allReviewLevels": {
-      "effectPct": -9.37,
+      "effectPct": -9.47,
       "inputs": "unrounded reviewLevelUSD / refPriceUSD - 1 for each position (the reviewPct field is that value rounded to 0.1)"
     },
     "aiDerating": {
-      "effectPct": -11.68,
+      "effectPct": -11.74,
       "shocksPct": {
         "SPY": -8,
         "TSM": -20,
@@ -573,7 +575,7 @@
       }
     },
     "severeTail": {
-      "effectPct": -19.12,
+      "effectPct": -19.24,
       "shocksPct": {
         "SPY": -15,
         "TSM": -30,
@@ -592,13 +594,24 @@
     },
     "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts. Exception: the IREN shocks (-40% severe, -30% derating) are Claude's assumptions (D-005), accepted by the owner on 12 Oct as evidence-backed: IREN's worst 4-week fall was -43.9% and its deepest peak-to-trough -47.1% (weekly closes, Jun 2025 to Oct 2026).",
     "fxSensitivity": {
-      "unhedgedWeightPct": 25,
-      "severeTailWithGbpUp1Pct": -19.3,
-      "perOnePctGbpRisePp": 0.18,
-      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -19.30%. D-002 (11 Oct) accepted the cap as a price-only limit with 28% unhedged; D-005 (12 Oct) replaces Itau with a hedged IREN, so the unhedged sleeve is now 25%."
+      "unhedgedWeightPct": 26,
+      "severeTailWithGbpUp1Pct": -19.43,
+      "perOnePctGbpRisePp": 0.19,
+      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve (TSM, LKOR, EWZ: 26% of NAV after EWZ went to 6%) takes the severe tail to about -19.43%. D-002 (11 Oct) accepted the cap as a price-only limit with 28% unhedged; D-005 replaced Itau with a hedged IREN; D-006 (12 Oct) raised EWZ to 6%."
+    },
+    "linkerSensitivity": {
+      "fund": "BlackRock index-linked gilt fund, over 5 years (8% of NAV)",
+      "note": "Not in the severe-tail figure above, which holds this sleeve at zero as in the approved test. It is a long-duration fund and can lose money on its own.",
+      "modifiedDurationYears": 17.9,
+      "durationSource": "Rothesay factsheet for the BlackRock Aquila Life Over 5 Years UK Index Linked Gilt Index Fund (same FTSE Actuaries UK Index-Linked Gilts over 5 Years index), data at 30 Sep / 17 Oct 2024; not the owner's exact share class",
+      "perPlus100bpRealYieldPctOfFund": -17.9,
+      "perPlus100bpRealYieldPctOfNAV": -1.43,
+      "twelveMonthsTo30Sep2022PctOfFund": -29.46,
+      "sameFallPctOfNAV": -2.36,
+      "status": "unverified for the owner's exact fund; check the factsheet"
     }
   },
   "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it.",
   "ladderBasis": "atPct is controlling and is measured from the running NAV peak (status.json drawdownFromPeakPct). navGBP is only the illustrative level while the peak is the 100,000 starting capital.",
-  "entryChangeRule": "Initial construction on 12 Oct counts as one change, and the conditional second tranche after TSMC's results counts as one change; the conditional second IREN tranche is part of that same change if confirmed by Thu 15 Oct, otherwise it is a single change in a later week and is never a third change in the same week. Ladder actions stay exempt under ladderRule."
+  "entryChangeRule": "Initial construction on 12 Oct counts as one change. There is no second tranche. Ladder actions stay exempt under ladderRule."
 }

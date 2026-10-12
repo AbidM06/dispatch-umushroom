@@ -3,7 +3,7 @@
   "asOf": "2026-10-12",
   "phase": "pre-entry",
   "verdict": "ACT",
-  "verdictReason": "Edition zero, entry day. Nothing is held until Monday's open; the scheduled entry is an ACT (entryPlan in actRules), including IREN at 4% in place of Itau (decision D-005). Prices shown are 9 Oct closes.",
+  "verdictReason": "Edition zero, entry day. Nothing is held until Monday's open; the scheduled entry is an ACT (entryPlan in actRules): every position in full at the open (D-006), including IREN at 4% in place of Itau (D-005), EWZ 6%, an 8% index-linked gilt fund as the defensive sleeve and a 5% Brazil reserve. Prices shown are 9 Oct closes.",
   "navGBP": 100000,
   "navNote": "Reference value at 9 Oct closes before entry. Performance is measured from Monday's opening prices.",
   "returnPct": 0.0,
@@ -136,6 +136,7 @@
     "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
-    "Sterling hedge costs and the current Bank Rate"
+    "Sterling hedge costs and the current Bank Rate",
+    "The 8% defensive sleeve is a long-duration index-linked gilt fund, not T-bills; its rate sensitivity is not in the severe-tail figure"
   ]
 }
