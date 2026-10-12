@@ -371,11 +371,11 @@
   ],
   "cash": [
     {
-      "id": "TBILLS",
+      "id": "LINKER",
       "name": "Index-linked gilt fund (Aviva Investors, over 5 years): the defensive sleeve. Not T-bills or cash",
       "weightPct": 8,
       "sizeGBP": 8000,
-      "role": "Defensive. Long duration (about 17.9 years on the factsheet for this index), so it falls when real yields rise; the id TBILLS is kept for compatibility",
+      "role": "Defensive. Long duration (about 17.9 years on the factsheet for the same index), so it falls when real yields rise. It is not cash and not T-bills",
       "priced": true,
       "currency": "GBP",
       "units": 11368.4809,
@@ -387,7 +387,8 @@
       "isin": "GB00BDZZQG84",
       "shareClass": "UK Institutional Accumulation (per the platform label)",
       "priceSource": "Aviva Investors' public fund centre once the ISIN is confirmed; the owner's broker screen until then",
-      "isinStatus": "From Codex's check of Aviva Investors' fund centre (about GBP 0.70 on 8 Oct, matching the reference price). I confirmed that the AI Index-Linked Gilts Over 5 Years family is Aviva Investors' and tracks the FTSE Actuaries UK Index-Linked Gilts Over 5 Years index, but could not open this class's own page. The owner should confirm the ISIN and provider on his broker's fund page"
+      "isinStatus": "From Codex's check of Aviva Investors' fund centre (about GBP 0.70 on 8 Oct, matching the reference price). I confirmed that the AI Index-Linked Gilts Over 5 Years family is Aviva Investors' and tracks the FTSE Actuaries UK Index-Linked Gilts Over 5 Years index, but could not open this class's own page. The owner should confirm the ISIN and provider on his broker's fund page",
+      "dealing": "Authorised contractual scheme valued once a day at NAV: it has no opening price. The entry price and performance baseline are the NAV allotted for the 12 Oct dealing day, taken from the owner's broker screen or Aviva Investors' fund centre"
     },
     {
       "id": "BR_RESERVE",
@@ -397,7 +398,7 @@
       "role": "Dry powder; deploy after 25 Oct runoff"
     }
   ],
-  "entryPlan": "Enter everything at Monday's open (12 Oct), in full: every position at its planned weight, including TSM 10%, NVDA 5%, LKOR 10% and IREN 4% (owner decision D-006, which replaces the staged entries in D-005 and the earlier half-size plan). The defensive sleeve is an Aviva Investors index-linked gilt fund (over 5 years) at 8%, a long-duration fund and not T-bills. The Brazil reserve is 5% cash, decided after the 25 Oct runoff. There is no second tranche. TSMC reports on Thu 15 Oct, three days after entry; TSM's thesis breakers (gross-margin guide below 65-67%, a material capex cut) are ACT triggers for that holding, not entry gates. IREN's contract report is unconfirmed and its breakers apply from entry.",
+  "entryPlan": "Enter everything at Monday's open (12 Oct), in full (the index-linked gilt fund has no open: it deals once a day at NAV, so its entry and baseline are the NAV allotted for 12 Oct): every position at its planned weight, including TSM 10%, NVDA 5%, LKOR 10% and IREN 4% (owner decision D-006, which replaces the staged entries in D-005 and the earlier half-size plan). The defensive sleeve is an Aviva Investors index-linked gilt fund (over 5 years) at 8%, a long-duration fund and not T-bills. The Brazil reserve is 5% cash, decided after the 25 Oct runoff. There is no second tranche. TSMC reports on Thu 15 Oct, three days after entry; TSM's thesis breakers (gross-margin guide below 65-67%, a material capex cut) are ACT triggers for that holding, not entry gates. IREN's contract report is unconfirmed and its breakers apply from entry.",
   "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 6% unless the review level is hit and keep the reserve in cash. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
   "verdicts": {
     "HOLD": "Default. No action.",
@@ -421,7 +422,7 @@
     {
       "atPct": -10,
       "navGBP": 90000,
-      "action": "Cut TSM, NVDA and LKOR by a third, convert any undeployed Brazil reserve to T-bills, then sell the remaining equity pro rata until T-bills are 25% of NAV."
+      "action": "Cut TSM, NVDA and LKOR by a third, convert any undeployed Brazil reserve to cash or T-bills, then sell the remaining equity pro rata until cash and T-bills are 25% of NAV. The index-linked gilt fund (LINKER) is not cash: proceeds are never added to it and it does not count toward the 25%."
     },
     {
       "atPct": -14,
@@ -556,7 +557,7 @@
     "Sterling hedge costs and the current Bank Rate",
     "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled",
     "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, accepted by the owner on 12 Oct on condition it is evidence-backed (weekly closes show a worst 4-week fall of -43.9% and a peak-to-trough of -47.1%); IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap",
-    "The defensive sleeve is an index-linked gilt fund (long duration), not T-bills: the drawdown ladder and reserve rule still say 'T-bills'; the owner chooses the instrument if a rung triggers",
+    "The defensive sleeve is an index-linked gilt fund (long duration), not T-bills. The drawdown ladder now sends proceeds to cash or T-bills and never to the fund (D-006); whether the fund should itself be sold at a ladder step is the owner's decision",
     "The owner's fund is read as Aviva Investors' AI Index-Linked Gilts Over 5 Years Index Fund UK Institutional Acc (ISIN GB00BDZZQG84, from Codex; owner to confirm). The 17.9-year duration is for the same FTSE index from a BlackRock life fund, not this fund; its own duration is not checked"
   ],
   "scenarios": {
@@ -626,6 +627,6 @@
     }
   },
   "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it.",
-  "ladderBasis": "atPct is controlling and is measured from the running NAV peak (status.json drawdownFromPeakPct). navGBP is only the illustrative level while the peak is the 100,000 starting capital.",
+  "ladderBasis": "atPct is controlling and is measured from the running NAV peak (status.json drawdownFromPeakPct). navGBP is only the illustrative level while the peak is the 100,000 starting capital. 'Invested' means equities and ETFs; the index-linked gilt fund (LINKER) counts as neither invested nor cash, so it keeps its weight at the -14% step, and at the -18% step 'everything to cash' includes it. Changing that is the owner's decision.",
   "entryChangeRule": "Initial construction on 12 Oct counts as one change. There is no second tranche. Ladder actions stay exempt under ladderRule."
 }

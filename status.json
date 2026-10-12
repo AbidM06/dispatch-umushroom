@@ -108,10 +108,10 @@
       "thesis": "intact",
       "thesisNote": "Anthropic contract is an unconfirmed report; Monday open may gap."
     },
-    "TBILLS": {
+    "LINKER": {
       "price": 0.7037,
       "asOf": "2026-10-12",
-      "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled",
+      "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled. The fund deals once a day at NAV: the baseline is the NAV allotted for 12 Oct",
       "status": "reference",
       "thesis": "intact",
       "thesisNote": "Aviva Investors AI Index-Linked Gilts Over 5 Years Index Fund UK Institutional Acc (ISIN GB00BDZZQG84, owner to confirm), long duration. Price from Aviva Investors' public fund centre once the ISIN is confirmed, otherwise from the owner's broker screen; marked unverified when neither is available. Counts toward NAV as a priced holding, not as cash."

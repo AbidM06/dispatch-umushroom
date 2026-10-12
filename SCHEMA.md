@@ -14,6 +14,6 @@ The Dispatch's Journal tab reads these files from the public raw URLs of this re
 
 ## Rules
 - Every price in `status.json` carries `price, asOf, source, status` (`ok`, `stale`, `unverified`, `reference`). A figure that could not be checked is published with `status: "unverified"`, never silently dropped or rounded into confidence.
-- A `cash` entry in `portfolio.json` with `"priced": true` (the index-linked gilt fund, id `TBILLS`) is a holding with a variable price, not cash: it carries `units` and `refPriceGBP`, appears in `status.json` `positions` under its id, and counts toward NAV at that price. Entries without `priced` are cash and are held at face value.
+- A `cash` entry in `portfolio.json` with `"priced": true` (the index-linked gilt fund, id `LINKER`) is a holding with a variable price, not cash: it carries `units` and `refPriceGBP`, appears in `status.json` `positions` under its id, and counts toward NAV at that price. Entries without `priced` are cash and are held at face value.
 - Journal files are append-only. A correction is a new line that refers to the old one; git history is the audit trail.
 - Verdicts are `HOLD`, `WATCH` or `ACT`.
