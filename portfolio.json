@@ -29,7 +29,7 @@
     "maxSevereTailLossPct": 18,
     "modelledSevereTailPct": -19.24,
     "modelledAllTargetsPct": 8.94,
-    "modelledAllReviewLevelsPct": -9.47,
+    "modelledAllReviewLevelsPct": -10.27,
     "modelledAIDerating": -11.74,
     "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts.",
     "capStatus": "Modelled severe tail (-19.24%) is beyond the -18% limit by 1.24pp after D-005 (IREN 4%) and D-006 (EWZ 6%). The owner decided on 12 Oct to keep IREN at 4% and EWZ at 6% and accepts the breach; the -18% limit is left unchanged and the breach stays on record. Claude recorded a dissent on IREN (3% at most until the contract is confirmed). The IREN shocks (-40% severe, -30% derating) were accepted by the owner on condition they are evidence-backed: IREN's worst 4-week fall was -43.9%, its worst 8-week fall -41.7% and its deepest peak-to-trough -47.1% (weekly closes, Jun 2025 to Oct 2026). At -47% the tail would be about -19.5%. The 8% index-linked gilt fund is held at zero in this test; see scenarios.linkerSensitivity."
@@ -382,7 +382,11 @@
       "refPriceGBP": 0.7037,
       "refPriceNote": "Units and the GBP 8,000 order value are from the owner's broker screen on 12 Oct (read from a screenshot); the unit price is derived as 8,000 / units, so it is a reference, not a fill",
       "reviewPctFromRef": -10,
-      "reviewNote": "No price target: it is a hedge. A 10% fall in the fund (about 0.8% of NAV) prompts a review of whether the defensive sleeve is defending (D-006)"
+      "reviewNote": "No price target: it is a hedge. A 10% fall in the fund (about 0.8% of NAV) prompts a review of whether the defensive sleeve is defending (D-006)",
+      "platformName": "AI Idx-Lnkd Glt Ovr 5 Yrs Idx UKInstlAcc (BlackRock), as shown on the owner's broker screen",
+      "isin": null,
+      "shareClass": "Not identified. BlackRock publishes several share classes with different ISINs and prices; the owner's ISIN has not been recorded",
+      "priceSource": "Owner or broker screen only. No public feed is matched to these units until the ISIN is recorded"
     },
     {
       "id": "BR_RESERVE",
@@ -552,17 +556,17 @@
     "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled",
     "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, accepted by the owner on 12 Oct on condition it is evidence-backed (weekly closes show a worst 4-week fall of -43.9% and a peak-to-trough of -47.1%); IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap",
     "The defensive sleeve is an index-linked gilt fund (long duration), not T-bills: the drawdown ladder and reserve rule still say 'T-bills'; the owner chooses the instrument if a rung triggers",
-    "The owner's exact fund factsheet (duration, share class) has not been checked; the 17.9-year figure is for the same index from another BlackRock fund"
+    "The owner's exact fund (ISIN, share class, factsheet) is not recorded; the 17.9-year figure is for the same index from another BlackRock fund"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
     "allTargets": {
       "effectPct": 8.94,
-      "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1)"
+      "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1). Excludes the index-linked gilt fund, which has no price target."
     },
     "allReviewLevels": {
-      "effectPct": -9.47,
-      "inputs": "unrounded reviewLevelUSD / refPriceUSD - 1 for each position (the reviewPct field is that value rounded to 0.1)"
+      "effectPct": -10.27,
+      "inputs": "unrounded reviewLevelUSD / refPriceUSD - 1 for each position (the reviewPct field is that value rounded to 0.1). Includes the index-linked gilt fund at its -10% review level (8% x -10% = -0.80pp)."
     },
     "aiDerating": {
       "effectPct": -11.74,
@@ -615,7 +619,9 @@
       "perPlus100bpRealYieldPctOfNAV": -1.43,
       "twelveMonthsTo30Sep2022PctOfFund": -29.46,
       "sameFallPctOfNAV": -2.36,
-      "status": "unverified for the owner's exact fund; check the factsheet"
+      "status": "unverified for the owner's exact fund; check the factsheet",
+      "severeTailPlusRateShockPctOfNAV": -21.6,
+      "combinedNote": "Information only, not the approved test: if a 2022-sized fall in the linker fund (-29.46%) coincided with the equity severe tail, the loss would be about this figure. Whether that combination is a plausible scenario, and whether it should replace the zero assumption, is the owner's decision (open on the PR)."
     }
   },
   "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it.",

@@ -114,7 +114,7 @@
       "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled",
       "status": "reference",
       "thesis": "intact",
-      "thesisNote": "Index-linked gilt fund, long duration. Not on Alpha Vantage: the daily price must come from the owner or the fund's published NAV, and is marked unverified when it cannot be checked. Counts toward NAV as a priced holding, not as cash."
+      "thesisNote": "Index-linked gilt fund, long duration. Not on Alpha Vantage and the ISIN/share class is not recorded, so no public feed is matched: the price comes from the owner's broker screen only and is marked unverified when none is supplied. Counts toward NAV as a priced holding, not as cash."
     }
   },
   "triggers": {
