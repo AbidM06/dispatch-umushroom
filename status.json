@@ -114,7 +114,7 @@
       "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled",
       "status": "reference",
       "thesis": "intact",
-      "thesisNote": "Index-linked gilt fund, long duration. Not on Alpha Vantage and the ISIN/share class is not recorded, so no public feed is matched: the price comes from the owner's broker screen only and is marked unverified when none is supplied. Counts toward NAV as a priced holding, not as cash."
+      "thesisNote": "Aviva Investors AI Index-Linked Gilts Over 5 Years Index Fund UK Institutional Acc (ISIN GB00BDZZQG84, owner to confirm), long duration. Price from Aviva Investors' public fund centre once the ISIN is confirmed, otherwise from the owner's broker screen; marked unverified when neither is available. Counts toward NAV as a priced holding, not as cash."
     }
   },
   "triggers": {
