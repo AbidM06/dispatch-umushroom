@@ -92,14 +92,6 @@
       "thesis": "intact",
       "thesisNote": ""
     },
-    "ITUB": {
-      "price": 10.16,
-      "asOf": "2026-10-09",
-      "source": "Alpha Vantage close (planning document)",
-      "status": "reference",
-      "thesis": "intact",
-      "thesisNote": ""
-    },
     "GLD": {
       "price": 384.58,
       "asOf": "2026-10-09",
@@ -107,6 +99,14 @@
       "status": "reference",
       "thesis": "intact",
       "thesisNote": ""
+    },
+    "IREN": {
+      "price": 35.19,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (Friday, before the weekend Anthropic report)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": "Anthropic contract is an unconfirmed report; Monday open may gap."
     }
   },
   "triggers": {

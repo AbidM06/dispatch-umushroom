@@ -27,13 +27,14 @@
   ],
   "constraints": {
     "maxSevereTailLossPct": 18,
-    "modelledSevereTailPct": -17.88,
-    "modelledAllTargetsPct": 8.18,
-    "modelledAllReviewLevelsPct": -8.83,
-    "modelledAIDerating": -10.66,
-    "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts."
+    "modelledSevereTailPct": -19.12,
+    "modelledAllTargetsPct": 8.84,
+    "modelledAllReviewLevelsPct": -9.37,
+    "modelledAIDerating": -11.68,
+    "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts.",
+    "capStatus": "Modelled severe tail (-19.12%) is beyond the -18% limit by 1.12pp after D-005. The owner accepted this on 12 Oct; Claude recorded a dissent. The IREN shock (-40% severe, -30% derating) is Claude's assumption and awaits the owner's approval."
   },
-  "currencyPolicy": "Developed-market positions hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ, ITUB) unhedged; 15% sterling cash.",
+  "currencyPolicy": "Developed-market positions (including IREN) hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ) unhedged; 14% sterling cash and Brazil reserve.",
   "positions": [
     {
       "ticker": "SPY",
@@ -312,31 +313,33 @@
       ]
     },
     {
-      "ticker": "ITUB",
-      "name": "Itau Unibanco (ADR)",
-      "bucket": "Brazil",
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "bucket": "AI compute",
       "currency": "USD",
-      "sterlingHedged": false,
-      "view": "Overweight, staged",
-      "weightPct": 3,
-      "sizeGBP": 3000.0,
-      "refPriceUSD": 10.16,
+      "sterlingHedged": true,
+      "view": "Overweight, staged, high volatility",
+      "weightPct": 4,
+      "sizeGBP": 4000.0,
+      "refPriceUSD": 35.19,
       "refPriceDate": "2026-10-09",
-      "plannedShares": 390.78,
-      "targetUSD": 11.3,
-      "reviewLevelUSD": 9.2,
-      "targetPct": 11.2,
-      "reviewPct": -9.4,
+      "plannedShares": 150.43,
+      "targetUSD": 44,
+      "reviewLevelUSD": 28,
+      "targetPct": 25.0,
+      "reviewPct": -20.4,
       "entry": null,
-      "thesis": "Cleanest way to own lower rates and a fiscal-credibility re-rating together; also an EWZ holding, so real exposure exceeds 3%.",
+      "thesis": "Converting one of the larger power and data-centre pipelines in North America from bitcoin mining to AI cloud. FY26 (to 30 Jun): revenue $707.0m, with AI cloud $128.8m against $16.4m a year earlier and AI cloud ahead of mining in Q4 ($70.5m vs $66.7m); contracted annualised revenue of $4bn for 2026 capacity against $1bn operating, targeted live by 31 Dec; customer prepayments of 45-55% of GPU cost and GPU financing for most of the rest. An unconfirmed 11 Oct report says Anthropic signed a multiyear cloud deal (anonymous sources, no size, term or site). Balance sheet is the risk: about $7.6bn of debt, $6.3bn of convertible proceeds and $4.7bn of new equity in FY26, a $702.6m net loss including $638.8m of impairments, and non-investment-grade customers financed at 9%. Sized at 4% with a wide review level because the stock moves far more than the rest of the book.",
       "thesisBreakers": [
-        "Lula wins the runoff",
-        "Credit deterioration in Q3 results",
-        "Selic held at 14% longer than hoped"
+        "IREN or Anthropic denies the report, or no contract is confirmed by the next company update",
+        "Contracted ARR target of $4bn by 31 Dec 2026 is cut or delayed",
+        "A convertible or equity raise that dilutes existing holders by more than 10%",
+        "A funding failure at a top AI lab"
       ],
       "catalysts": [
-        "Runoff 25 Oct",
-        "Q3 results early Nov (unconfirmed)"
+        "Confirmation or denial of the Anthropic contract",
+        "Delivery of Microsoft Horizon 2 and Horizons 3-4 (Q4 2026 target)",
+        "Next quarterly update (date unconfirmed)"
       ]
     },
     {
@@ -370,8 +373,8 @@
     {
       "id": "TBILLS",
       "name": "T-bills / GBP cash",
-      "weightPct": 8,
-      "sizeGBP": 8000,
+      "weightPct": 7,
+      "sizeGBP": 7000,
       "role": "Defensive"
     },
     {
@@ -382,7 +385,7 @@
       "role": "Dry powder; deploy after 25 Oct runoff"
     }
   ],
-  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ/ITUB staged; 7% Brazil reserve decided after the 25 Oct runoff. Each second half is bought only if that holding's own named thesis breakers (see its entry) and the portfolio-wide triggers have not fired by then; TSM's include a gross-margin guide below 65-67% or a material capex cut at TSMC's results. For any holding whose breaker has fired, the tranche stays in bills and the day is an ACT decision.",
+  "entryPlan": "Enter at Monday's open. Buy only half of TSM, NVDA and LKOR then; the other half after TSMC results on Thu 15 Oct. EWZ staged; IREN: half (about 75 shares) at Monday's open, the other half only once IREN or Anthropic confirms the contract and IREN's own breakers have not fired (decision D-005); 7% Brazil reserve decided after the 25 Oct runoff. Each second half is bought only if that holding's own named thesis breakers (see its entry) and the portfolio-wide triggers have not fired by then; TSM's include a gross-margin guide below 65-67% or a material capex cut at TSMC's results. For any holding whose breaker has fired, the tranche stays in bills and the day is an ACT decision.",
   "reserveRule": "If Bolsonaro wins on 25 Oct and the real holds near 5.0, add up to 5% EWZ. If Lula wins, stay at 5% unless the review level is hit and keep the reserve in bills. Any deployment must first re-run the severe-tail test and stay inside the -18% cap: EWZ at -12% adds about -0.12pp per 1% of NAV, so the extra EWZ must be funded by an equal cut elsewhere (or by showing the cap still holds), and the check is logged in the decision.",
   "verdicts": {
     "HOLD": "Default. No action.",
@@ -539,20 +542,21 @@
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
     "Sterling hedge costs and the current Bank Rate",
-    "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled"
+    "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled",
+    "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, not yet owner-approved; IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
     "allTargets": {
-      "effectPct": 8.18,
+      "effectPct": 8.84,
       "inputs": "unrounded targetUSD / refPriceUSD - 1 for each position (the targetPct field is that value rounded to 0.1)"
     },
     "allReviewLevels": {
-      "effectPct": -8.83,
+      "effectPct": -9.37,
       "inputs": "unrounded reviewLevelUSD / refPriceUSD - 1 for each position (the reviewPct field is that value rounded to 0.1)"
     },
     "aiDerating": {
-      "effectPct": -10.66,
+      "effectPct": -11.68,
       "shocksPct": {
         "SPY": -8,
         "TSM": -20,
@@ -564,12 +568,12 @@
         "VST": -12,
         "NEE": -5,
         "EWZ": -6,
-        "ITUB": -6,
-        "GLD": 3
+        "GLD": 3,
+        "IREN": -30
       }
     },
     "severeTail": {
-      "effectPct": -17.88,
+      "effectPct": -19.12,
       "shocksPct": {
         "SPY": -15,
         "TSM": -30,
@@ -581,17 +585,17 @@
         "VST": -25,
         "NEE": -20,
         "EWZ": -12,
-        "ITUB": -12,
-        "GLD": 5
+        "GLD": 5,
+        "IREN": -40
       },
       "limitPct": -18
     },
-    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts.",
+    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts. Exception: the IREN shocks (-40% severe, -30% derating) are Claude's assumptions (D-005), pending the owner's approval.",
     "fxSensitivity": {
-      "unhedgedWeightPct": 28,
-      "severeTailWithGbpUp1Pct": -18.09,
-      "perOnePctGbpRisePp": 0.22,
-      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -18.09%, just past the cap. Settled by the owner (D-002, 11 Oct): the cap is accepted as a price-only limit and the unhedged sleeve is kept."
+      "unhedgedWeightPct": 25,
+      "severeTailWithGbpUp1Pct": -19.3,
+      "perOnePctGbpRisePp": 0.18,
+      "note": "The -18% cap is tested on USD price shocks only. A concurrent 1% sterling rise on the unhedged sleeve takes the severe tail to about -19.30%. D-002 (11 Oct) accepted the cap as a price-only limit with 28% unhedged; D-005 (12 Oct) replaces Itau with a hedged IREN, so the unhedged sleeve is now 25%."
     }
   },
   "ladderRule": "A drawdown-ladder action is one change for the weekly limit and is exempt from maxChangesPerWeek; it takes precedence over it.",
