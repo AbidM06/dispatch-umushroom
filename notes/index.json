@@ -5,6 +5,14 @@
     "verdict": "HOLD",
     "kind": "edition-zero",
     "file": "notes/2026-10-10.md",
-    "summary": "Drafted from Friday's closes. Enter Monday at the open, half-size in TSMC, Nvidia and Korea until TSMC reports on Thursday."
+    "summary": "Drafted from Friday's closes. Enter Monday at the open, half-size in TSMC, Nvidia and Korea until TSMC reports on Thursday. Superseded on 12 Oct by decisions D-005 and D-006: full-size entry, see the plan update."
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Plan update: full-size entry, IREN, linker sleeve",
+    "verdict": "ACT",
+    "kind": "plan-update",
+    "file": "notes/2026-10-12-plan-update.md",
+    "summary": "Everything is bought in full at Monday's open (D-006). IREN replaces Itau at 4% (D-005), EWZ is 6%, the Brazil reserve 5%, and the defensive sleeve is an 8% index-linked gilt fund. Severe-shock loss 19.24% against the 18% limit, accepted by the owner."
   }
 ]

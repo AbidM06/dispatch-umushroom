@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-12",
   "phase": "pre-entry",
-  "verdict": "HOLD",
-  "verdictReason": "Edition zero. Nothing is held yet; no trade today. Monday 12 Oct will be ACT (scheduled entry, per the entryPlan rule in actRules).",
+  "verdict": "ACT",
+  "verdictReason": "Edition zero, entry day. Nothing is held until Monday's open; the scheduled entry is an ACT (entryPlan in actRules): every position in full at the open (D-006), including IREN at 4% in place of Itau (D-005), EWZ 6%, an 8% index-linked gilt fund as the defensive sleeve and a 5% Brazil reserve. Prices shown are 9 Oct closes.",
   "navGBP": 100000,
   "navNote": "Reference value at 9 Oct closes before entry. Performance is measured from Monday's opening prices.",
   "returnPct": 0.0,
@@ -92,14 +92,6 @@
       "thesis": "intact",
       "thesisNote": ""
     },
-    "ITUB": {
-      "price": 10.16,
-      "asOf": "2026-10-09",
-      "source": "Alpha Vantage close (planning document)",
-      "status": "reference",
-      "thesis": "intact",
-      "thesisNote": ""
-    },
     "GLD": {
       "price": 384.58,
       "asOf": "2026-10-09",
@@ -107,6 +99,22 @@
       "status": "reference",
       "thesis": "intact",
       "thesisNote": ""
+    },
+    "IREN": {
+      "price": 35.19,
+      "asOf": "2026-10-09",
+      "source": "Alpha Vantage close (Friday, before the weekend Anthropic report)",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": "Anthropic contract is an unconfirmed report; Monday open may gap."
+    },
+    "LINKER": {
+      "price": 0.7037,
+      "asOf": "2026-10-12",
+      "source": "Derived from the owner's broker screen (GBP 8,000 order / 11,368.4809 units); order not yet filled. The fund deals once a day at NAV: the baseline is the NAV allotted for 12 Oct",
+      "status": "reference",
+      "thesis": "intact",
+      "thesisNote": "Aviva Investors AI Index-Linked Gilts Over 5 Years Index Fund UK Institutional Acc (ISIN GB00BDZZQG84, owner to confirm), long duration. Price from Aviva Investors' public fund centre once the ISIN is confirmed, otherwise from the owner's broker screen; marked unverified when neither is available. Counts toward NAV as a priced holding, not as cash."
     }
   },
   "triggers": {
@@ -136,6 +144,7 @@
     "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
     "Brent: two sources differ by about $20 (Alpha Vantage ~$125 on 6 Oct vs Nasdaq ~$105 weekly)",
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
-    "Sterling hedge costs and the current Bank Rate"
+    "Sterling hedge costs and the current Bank Rate",
+    "The 8% defensive sleeve is a long-duration index-linked gilt fund, not T-bills; its rate sensitivity is not in the severe-tail figure"
   ]
 }
