@@ -32,7 +32,7 @@
     "modelledAllReviewLevelsPct": -9.37,
     "modelledAIDerating": -11.68,
     "note": "Shocks are the owner-approved assumptions in the planning document, not forecasts.",
-    "capStatus": "Modelled severe tail (-19.12%) is beyond the -18% limit by 1.12pp after D-005. The owner accepted this on 12 Oct; Claude recorded a dissent. The IREN shock (-40% severe, -30% derating) is Claude's assumption and awaits the owner's approval."
+    "capStatus": "Modelled severe tail (-19.12%) is beyond the -18% limit by 1.12pp after D-005. On 12 Oct the owner decided to keep IREN at 4% and accepts the breach; the -18% limit is left unchanged and the breach stays on record. Claude recorded a dissent (3% at most until the contract is confirmed). The IREN shocks (-40% severe, -30% derating) were accepted by the owner on 12 Oct on condition they are evidence-backed. Evidence (Alpha Vantage weekly adjusted closes for IREN, Jun 2025 to 9 Oct 2026, retrieved 12 Oct): the worst 4-week fall was -43.9%, the worst 8-week fall -41.7%, and the deepest peak-to-trough on weekly closes was -47.1% (63.54 on 29 May to 33.62 on 17 Jul 2026), so the -40% severe and -30% derating shocks are not above what the stock has already done. Note the history is lighter than the worst case: at -47% the tail would be about -19.4%."
   },
   "currencyPolicy": "Developed-market positions (including IREN) hedged to sterling with rolling forwards; emerging-market names (TSM, LKOR, EWZ) unhedged; 14% sterling cash and Brazil reserve.",
   "positions": [
@@ -543,7 +543,7 @@
     "Korea Friday close, and why Constellation rose 4.6% on Friday",
     "Sterling hedge costs and the current Bank Rate",
     "Amundi Korea fund: tracks a 20/35 capped MSCI Korea index, synthetic swap; reference price is the owner's broker NAV (EUR 181.23, 11 Oct) versus a Xetra close of EUR 178.34 on 9 Oct, and the EUR/USD effect on this row not modelled",
-    "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, not yet owner-approved; IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap"
+    "IREN: the Anthropic contract is an unconfirmed report from anonymous sources (The Information via AI Weekly, 11 Oct); the severe-tail shock for IREN (-40%) is Claude's assumption, accepted by the owner on 12 Oct on condition it is evidence-backed (weekly closes show a worst 4-week fall of -43.9% and a peak-to-trough of -47.1%); IREN's Friday close ($35.19) predates the weekend news, so Monday's open may gap"
   ],
   "scenarios": {
     "method": "Portfolio effect (% of NAV) = sum over positions of weightPct x shock% / 100. Cash and the Brazil reserve are held at zero return. Shocks are USD price moves; sterling/FX effects and hedge costs are NOT in these figures; see fxSensitivity.",
@@ -590,7 +590,7 @@
       },
       "limitPct": -18
     },
-    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts. Exception: the IREN shocks (-40% severe, -30% derating) are Claude's assumptions (D-005), pending the owner's approval.",
+    "note": "Shock sizes are the owner-approved assumptions in the planning document, not forecasts. Exception: the IREN shocks (-40% severe, -30% derating) are Claude's assumptions (D-005), accepted by the owner on 12 Oct as evidence-backed: IREN's worst 4-week fall was -43.9% and its deepest peak-to-trough -47.1% (weekly closes, Jun 2025 to Oct 2026).",
     "fxSensitivity": {
       "unhedgedWeightPct": 25,
       "severeTailWithGbpUp1Pct": -19.3,
