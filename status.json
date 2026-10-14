@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "phase": "live-week-1",
   "verdict": "WATCH",
-  "verdictReason": "No actRule met. First edition after entry (12 Oct opening prices). KOSPI fell 3.65% on 12 Oct and 5.47% on 13 Oct to close at 6,035.34, 0.6% above the 6,000 trigger; LKOR's 12 Oct price predates the second fall. A close below 6,000 would make the next note an ACT. LKOR's 'sustained heavy foreign selling' breaker has no threshold; owner to decide. No position is near its review level on 12 Oct closes.",
-  "navGBP": 99021.93,
-  "navNote": "Positions at 12 Oct closes against 12 Oct opening-price entries, price return only (currency effect on unhedged TSM, LKOR and EWZ not modelled); LINKER at its unverified 0.7037 reference; Brazil reserve GBP 5,000 cash. Korea's 13 Oct fall is not included.",
-  "returnPct": -0.98,
-  "benchmarkReturnPct": -0.09,
-  "alphaPct": -0.89,
-  "drawdownFromPeakPct": -0.98,
+  "verdictReason": "No actRule met. KOSPI closed 6,035.35 on 13 Oct (-5.46%, traded below 6,000 intraday) and about 6,104 on 14 Oct (+1.13%, one source), 1.7% above the 6,000 trigger, which is defined on a close. LKOR is 4.6% above its EUR 158.5 review level after -5.87% since entry. Drawdown -1.11% against the -6% first ladder step. US CPI today (13:30 UK), TSMC results Thu 15 Oct. LKOR's 'sustained heavy foreign selling' breaker still has no threshold; owner to decide.",
+  "navGBP": 98892.6,
+  "navNote": "Positions at 13 Oct closes against 12 Oct opening-price entries, price return only (currency effect on unhedged TSM, LKOR and EWZ not modelled); LINKER at its unverified 0.7037 reference; Brazil reserve GBP 5,000 cash. Korea's 14 Oct move is not included.",
+  "returnPct": -1.11,
+  "benchmarkReturnPct": -0.1,
+  "alphaPct": -1.01,
+  "drawdownFromPeakPct": -1.11,
   "changesThisWeek": 1,
   "positions": {
     "SPY": {
-      "price": 778.1,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 778.01,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 778.78,
       "entryAsOf": "2026-10-12 open",
@@ -23,19 +23,19 @@
       "thesisNote": ""
     },
     "TSM": {
-      "price": 444.35,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 445.12,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 453.55,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Closed at the day's low. Q3 results Thu 15 Oct; Taiwan and Korea chip stocks sold off Tue 13 Oct (unverified for the ADR)."
+      "thesisNote": "ADR +0.17% on 13 Oct. Q3 results Thu 15 Oct; a gross-margin guide below 65-67% or a material capex cut is an ACT."
     },
     "NVDA": {
-      "price": 226.32,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 228.52,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 228.73,
       "entryAsOf": "2026-10-12 open",
@@ -43,9 +43,9 @@
       "thesisNote": ""
     },
     "GOOGL": {
-      "price": 352.72,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 353.78,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 351.86,
       "entryAsOf": "2026-10-12 open",
@@ -53,19 +53,19 @@
       "thesisNote": ""
     },
     "LKOR": {
-      "price": 172.1,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026 (LKOR.DEX, EUR)",
+      "price": 165.74,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close (LKOR.DEX, EUR)",
       "status": "ok",
       "entryPrice": 176.08,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "EUR, Xetra close as LKOR.DEX; predates Tuesday's 5.47% KOSPI fall. Entry (Xetra open) is 2.8% below the broker NAV reference of 181.23 (D-004 re-base question for the owner). Breaker 'sustained heavy foreign selling' has no threshold: reported six sessions of net selling (unverified); owner to decide."
+      "thesisNote": "EUR, Xetra close as LKOR.DEX, -3.70% on 13 Oct to 165.74, 4.6% above the 158.5 review level. Breaker 'sustained heavy foreign selling' has no threshold: foreigners sold a net KRW 4.5tn on 13 Oct (Korea Times, Asia Business Daily); owner to decide. Entry (Xetra open) is 2.8% below the broker NAV reference of 181.23 (D-004 re-base question for the owner)."
     },
     "GEV": {
-      "price": 996.8,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 1004.04,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 999.99,
       "entryAsOf": "2026-10-12 open",
@@ -73,9 +73,9 @@
       "thesisNote": ""
     },
     "CEG": {
-      "price": 293.89,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 295.79,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 300.1,
       "entryAsOf": "2026-10-12 open",
@@ -83,9 +83,9 @@
       "thesisNote": ""
     },
     "VST": {
-      "price": 158.13,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 162.36,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 162.67,
       "entryAsOf": "2026-10-12 open",
@@ -93,9 +93,9 @@
       "thesisNote": ""
     },
     "NEE": {
-      "price": 78.51,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 78.22,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 77.51,
       "entryAsOf": "2026-10-12 open",
@@ -103,9 +103,9 @@
       "thesisNote": ""
     },
     "EWZ": {
-      "price": 43.54,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 42.87,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 43.67,
       "entryAsOf": "2026-10-12 open",
@@ -114,18 +114,18 @@
     },
     "IREN": {
       "price": 34.8,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 36.305,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Opened 3.2% above Friday on the unconfirmed Anthropic report, closed 4.1% below the open. Contract still unconfirmed."
+      "thesisNote": "Opened 33.31, low 32.69, closed 34.80 on 13 Oct, exactly equal to the 12 Oct close (Alpha Vantage and StockAnalysis agree; after-hours 35.07). Anthropic contract still unconfirmed by IREN or Anthropic."
     },
     "GLD": {
-      "price": 382.15,
-      "asOf": "2026-10-12",
-      "source": "Alpha Vantage daily close, 12 Oct 2026",
+      "price": 381.67,
+      "asOf": "2026-10-13",
+      "source": "Alpha Vantage GLOBAL_QUOTE, 13 Oct 2026 close",
       "status": "ok",
       "entryPrice": 382.605,
       "entryAsOf": "2026-10-12 open",
@@ -134,8 +134,8 @@
     },
     "LINKER": {
       "price": 0.7037,
-      "asOf": "2026-10-12",
-      "source": "Reference derived from the owner's broker screen (GBP 8,000 / 11,368.4809 units). Aviva Investors' fund centre was not reachable from this run, so the 12 Oct dealing NAV is not confirmed.",
+      "asOf": "2026-10-13",
+      "source": "Reference derived from the owner's broker screen (GBP 8,000 / 11,368.4809 units). A NAV for 12 or 13 Oct was not found; Aviva Investors' page for this ISIN did not appear in search.",
       "status": "unverified",
       "entryPrice": 0.7037,
       "entryAsOf": "2026-10-12 dealing NAV (unverified)",
@@ -150,30 +150,32 @@
       "fired": false
     },
     "US10Y": {
-      "reading": 5.24,
-      "asOf": "2026-10-09",
-      "fired": false
-    },
-    "KOSPI": {
-      "reading": 6035.34,
+      "reading": 5.22,
       "asOf": "2026-10-13",
       "fired": false
     },
+    "KOSPI": {
+      "reading": 6103.64,
+      "asOf": "2026-10-14",
+      "fired": false
+    },
     "FED_OCT": {
-      "reading": "about 17-20% priced",
-      "asOf": "2026-10-10",
+      "reading": "about 23% priced (77% hold)",
+      "asOf": "2026-10-14",
       "fired": false
     }
   },
   "unverified": [
-    "US high-yield spread: last reading 3.15% (8 Oct) not refreshed; FRED not reachable from this run",
-    "US 10-year: no 12 Oct print (bond market closed for Columbus Day); 5.24% is the 9 Oct print",
-    "Fed hike odds (about 17-20% for 28 Oct) not refreshed since 10 Oct",
-    "WTI $93.74, gold December futures $4,190.60 and index closes (S&P 7,807, Nasdaq 27,245) come from one third-party wrap; Brent $106.65 cross-checked with Trading Economics",
+    "US high-yield spread: last reading 3.15% (8 Oct) not refreshed; FRED could not be opened from this run",
+    "US 10-year 5.22% (13 Oct) from one market wrap (5.2168%), cross-checked against Trading Economics (about 5.20% on 14 Oct)",
+    "Fed hike odds (about 23% for 28 Oct, 88% for December) from one Trading Economics summary",
+    "Brent about $106.6 (14 Oct morning, one source); the 13 Oct note carried about $105.3; US crude $94.14 settle and gold spot about $4,160 come from one market wrap and the crude contract is not labelled WTI",
+    "S&P 500 7,805.45, Nasdaq 27,204.38, GBP/USD 1.3251 and the CPI consensus (about 3.6-3.7% headline) from one wrap or two inconsistent sources",
     "Brazilian real not retrieved; Brazil runoff polls not retrieved",
-    "LINKER: 12 Oct dealing NAV not confirmed (Aviva Investors fund centre unreachable); carried at the 0.7037 reference. ISIN and provider still to be confirmed by the owner",
-    "LKOR: entry is the Xetra open (EUR 176.08), 2.8% below the broker NAV reference of 181.23; the foreign-selling streak (six sessions) comes from one machine-translated intraday report; the 13 Oct price is not retrieved",
-    "KOSPI 13 Oct close 6,035.34 from TokenPost and PANews reports; official KRX figure not checked",
+    "KOSPI 14 Oct close 6,103.64 from one source (Trading Economics), whose summary text also says about 6,080; 13 Oct close 6,035.35 from the Korea Times; official KRX figures not checked",
+    "LINKER: 12 and 13 Oct dealing NAVs not confirmed; carried at the 0.7037 reference. ISIN and provider still to be confirmed by the owner",
+    "LKOR: entry is the Xetra open (EUR 176.08), 2.8% below the broker NAV reference of 181.23; foreign net selling figures come from press reports",
+    "IREN 13 Oct close 34.80 equals the prior close to the cent; two sources agree",
     "Current valuations for Nvidia, Alphabet and NextEra",
     "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
     "Sterling hedge costs and the current Bank Rate",
