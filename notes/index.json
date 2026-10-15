@@ -30,5 +30,13 @@
     "kind": "daily",
     "file": "notes/2026-10-14.md",
     "summary": "Portfolio -1.11% since entry vs SPY -0.10% (alpha -1.01). KOSPI closed 6,035.35 on Tue and about 6,104 Wed, above the 6,000 trigger. LKOR -5.87% since entry, 4.6% above its review level. CPI 13:30 UK, TSMC Thu."
+  },
+  {
+    "date": "2026-10-15",
+    "title": "KOSPI closes below 6,000 after an 8% fall; proposal to sell LKOR",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-15.md",
+    "summary": "KOSPI about 5,533 (-7.9%) breaches the 6,000 trigger, a named LKOR thesis-breaker. Portfolio -3.95% since entry vs SPY -1.18% (alpha -2.77) after hot CPI and a 4.3% chip fall. Proposal: sell LKOR in full, owner to decide. TSMC reported in range; Market view with five calls."
   }
 ]
