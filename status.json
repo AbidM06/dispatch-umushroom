@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "phase": "live-week-1",
   "verdict": "ACT",
-  "verdictReason": "Early-warning trigger fired: KOSPI closed about 5,533 on 15 Oct (-7.9%, AP; KRX close unverified), below the 6,000 level; it is also a named LKOR thesis-breaker. Proposal: sell LKOR in full at the Xetra open, proceeds to cash (owner to decide; not recorded as executed). LKOR is likely to open below its EUR 158.5 review level. NAV -3.95% at 14 Oct closes vs SPY -1.18%; drawdown step -6% not hit. TSM breakers have not occurred. Midday: owner confirmed the platform as the book of record (NAV GBP 96,516.74, -3.48%, alpha -2.30, ladder -6% step 2.52 points away). Instruction issued to sell all of LKOR (65.1273 units) into cash once approved by the owner's own order; changesThisWeek stays 1 until the fill is recorded.",
-  "navGBP": 96516.74,
-  "navNote": "Book of record is the UMushroom platform (owner screenshots, 15 Oct midday): NAV GBP 96,516.74, cash GBP 5,409.45 (5.60%). Prices on the screens mix 14 Oct closes and live quotes. The morning model (GBP 96,047.58, -3.95%, opening-price entries) is superseded. Benchmark is SPY from the 12 Oct open to the 14 Oct close (-1.18%); the platform's own S&P 500 fund shows -1.56% since added, including London-hours moves. Platform units match positions sized at about the 9 Oct closes; its per-holding 'performance since added' uses other baselines and is not used. Korea's 15 Oct fall is probably not in the platform's LKOR price.",
-  "returnPct": -3.48,
-  "benchmarkReturnPct": -1.18,
-  "alphaPct": -2.3,
-  "drawdownFromPeakPct": -3.48,
+  "verdictReason": "Standing proposal: sell LKOR in full into cash (owner to decide; not recorded as executed). KOSPI closed 5,554.22 on 15 Oct and 5,668.05 on 16 Oct, both below the 6,000 trigger, a named LKOR thesis-breaker; LKOR traded about EUR 150.46 intraday on 15 Oct (one source, unverified), below its EUR 158.5 review level. Model NAV GBP 94,912.57 (-5.09%) vs SPY -0.90% from the 12 Oct open to the 15 Oct close; the -6% ladder step (GBP 94,000) is 0.91 points away and not hit. No other review level, target or breaker hit; GEV closed 2.9% above its review level (an unverified one-source intraday low of 871.16 is flagged; rules read on closes). changesThisWeek stays 1 until the LKOR fill is recorded.",
+  "navGBP": 94912.57,
+  "navNote": "Model NAV from opening-price entries at 15 Oct closes (price only; LINKER at its 0.7037 reference, Brazil reserve GBP 5,000). The model reproduced GBP 96,047.58 for 14 Oct. The book of record is the UMushroom platform (owner screens): NAV GBP 96,516.74 (-3.48%) at 15 Oct midday on mixed prices, so the platform may read about 0.5 points better than the model; no fresh platform screen was available for 16 Oct, so the lower, more conservative figure is used. LKOR uses an unverified intraday price.",
+  "returnPct": -5.09,
+  "benchmarkReturnPct": -0.9,
+  "alphaPct": -4.19,
+  "drawdownFromPeakPct": -5.09,
   "changesThisWeek": 1,
   "positions": {
     "SPY": {
-      "price": 769.6,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 771.79,
+      "asOf": "2026-10-15",
+      "source": "StockAnalysis and MarketAlleys, 15 Oct 2026 close",
       "status": "ok",
       "entryPrice": 778.78,
       "entryAsOf": "2026-10-12 open",
@@ -23,19 +23,19 @@
       "thesisNote": "Platform instrument is an iShares Core S&P 500 fund (USD 831.22, 12.25% of NAV, units 18.829); SPY here is a proxy."
     },
     "TSM": {
-      "price": 430.0,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 422.25,
+      "asOf": "2026-10-15",
+      "source": "Yahoo Finance, 15 Oct 2026 close (-1.80%)",
       "status": "ok",
       "entryPrice": 453.55,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "ADR -3.40% on 14 Oct. Q3 reported 15 Oct: net income NT$763.1bn, gross margin 66.4%, Q4 guide 65-67% (one source), 2026 capex $60-64bn unchanged (two sources). Neither breaker has occurred."
+      "thesisNote": "ADR -1.80% on 15 Oct after Q3 results. Q3 gross margin 66.4%, Q4 guide 65-67% (one source), 2026 capex $60-64bn unchanged (two sources). Neither breaker has occurred."
     },
     "NVDA": {
-      "price": 217.11,
+      "price": 217.23,
       "asOf": "2026-10-15",
-      "source": "UMushroom platform screen (owner), 15 Oct midday (live quote)",
+      "source": "Gotrade, TradingKey and MarketAlleys, 15 Oct 2026 close (-1.84%)",
       "status": "ok",
       "entryPrice": 228.73,
       "entryAsOf": "2026-10-12 open",
@@ -43,9 +43,9 @@
       "thesisNote": ""
     },
     "GOOGL": {
-      "price": 342.36,
+      "price": 349.22,
       "asOf": "2026-10-15",
-      "source": "UMushroom platform screen (owner), 15 Oct midday (live quote)",
+      "source": "StockAnalysis, 15 Oct 2026 close (+0.45%)",
       "status": "ok",
       "entryPrice": 351.86,
       "entryAsOf": "2026-10-12 open",
@@ -53,79 +53,79 @@
       "thesisNote": ""
     },
     "LKOR": {
-      "price": 164.2,
+      "price": 150.46,
       "asOf": "2026-10-15",
-      "source": "UMushroom platform screen (owner), 15 Oct midday, EUR; probably does not yet reflect Korea's 15 Oct fall",
-      "status": "stale",
+      "source": "Paasa (Xetra), EUR, 15 Oct 14:21 CET intraday (-7.08% vs its prior close 161.92); a London listing showed -5.34% at 17:35; Xetra close not retrieved",
+      "status": "unverified",
       "entryPrice": 181.23,
       "entryAsOf": "platform fill (units imply about EUR 181, the broker NAV reference)",
       "thesis": "breaker-triggered",
-      "thesisNote": "Breaker 'KOSPI closes below 6,000' occurred (KOSPI about 5,533 on 15 Oct, AP; KRX close unverified). Platform: 65.1273 units, EUR 10,693.84, 9.38% of NAV; about -9.5% against the cost its units imply, review level EUR 158.5 about 3.5% below the platform price and likely hit once it reprices. Instruction: sell in full, proceeds to cash; owner places the order."
+      "thesisNote": "Breaker 'KOSPI closes below 6,000' occurred (5,554.22 on 15 Oct, 5,668.05 on 16 Oct). Intraday price is below the EUR 158.5 review level. Instruction stands: sell in full, proceeds to cash; owner places the order and records the fill."
     },
     "GEV": {
-      "price": 941.78,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 926.44,
+      "asOf": "2026-10-15",
+      "source": "Bullfincher and TradersUnion, 15 Oct 2026 close (-1.63%)",
       "status": "ok",
       "entryPrice": 999.99,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": ""
+      "thesisNote": "-1.63% (two sources); TradingKey showed -3.22%, probably intraday. One source shows an intraday low of 871.16, below the 900 review level, unconfirmed. Rules read on closes; 2.9% above review level."
     },
     "CEG": {
-      "price": 279.54,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 275.0,
+      "asOf": "2026-10-15",
+      "source": "StockAnalysis, 15 Oct 2026 close (-1.62%)",
       "status": "ok",
       "entryPrice": 300.1,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": ""
+      "thesisNote": "3.8% above review level."
     },
     "VST": {
-      "price": 151.79,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
-      "status": "ok",
+      "price": 154.17,
+      "asOf": "2026-10-15",
+      "source": "Yahoo Finance, 15 Oct 2026 close (+1.57%); single source",
+      "status": "unverified",
       "entryPrice": 162.67,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
       "thesisNote": ""
     },
     "NEE": {
-      "price": 78.37,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
-      "status": "ok",
+      "price": 78.96,
+      "asOf": "2026-10-15",
+      "source": "Bullfincher, 15 Oct 2026 (+0.75%); single source",
+      "status": "unverified",
       "entryPrice": 77.51,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
       "thesisNote": ""
     },
     "EWZ": {
-      "price": 42.6,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 41.58,
+      "asOf": "2026-10-15",
+      "source": "Yahoo Finance, 15 Oct 2026 close (-2.39%)",
       "status": "ok",
       "entryPrice": 43.67,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Real/dollar conflicting (5.03 on 13 Oct vs about 5.16 on 15 Oct, one source); the 5.2 breaker is not confirmed either way. Platform instrument is an iShares MSCI Brazil ETF (USD 60.83, 6.25%, units 131.3867); EWZ here is a proxy and its cost basis is unclear from the screen."
+      "thesisNote": "USD/BRL 5.087 close on 15 Oct (Rio Times; a live ticker showed 5.16); the 5.2 breaker is not hit on the close. Platform instrument is an iShares MSCI Brazil ETF; EWZ here is a proxy."
     },
     "IREN": {
-      "price": 30.56,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 30.39,
+      "asOf": "2026-10-15",
+      "source": "StockAnalysis and Motley Fool, 15 Oct 2026 close (-0.56%)",
       "status": "ok",
       "entryPrice": 36.305,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "-12.18% to 30.56 on 14 Oct with AI-credit names; no IREN-specific news found. Anthropic contract still unconfirmed."
+      "thesisNote": "Touched 26.60 intraday on a Gartner report on neocloud viability; no IREN-specific news. Anthropic contract still unconfirmed."
     },
     "GLD": {
-      "price": 375.99,
-      "asOf": "2026-10-14",
-      "source": "Alpha Vantage GLOBAL_QUOTE, 14 Oct 2026 close",
+      "price": 382.71,
+      "asOf": "2026-10-15",
+      "source": "StockAnalysis and MarketAlleys, 15 Oct 2026 close (+1.79%)",
       "status": "ok",
       "entryPrice": 382.605,
       "entryAsOf": "2026-10-12 open",
@@ -135,8 +135,8 @@
     "LINKER": {
       "price": 0.708,
       "asOf": "2026-10-15",
-      "source": "UMushroom platform screen (owner): GBP 8,048.88 on 11,368.4809 units; NAV date not shown",
-      "status": "ok",
+      "source": "UMushroom platform screen (owner), 15 Oct midday, carried forward; no verified NAV for 16 Oct (the Aviva Investors page found is a different fund)",
+      "status": "stale",
       "entryPrice": 0.7037,
       "entryAsOf": "2026-10-12 dealing NAV (unverified)",
       "thesis": "intact",
@@ -145,44 +145,43 @@
   },
   "triggers": {
     "HY_SPREAD": {
-      "reading": 3.15,
-      "asOf": "2026-10-08",
+      "reading": 3.16,
+      "asOf": "2026-10-13",
       "fired": false
     },
     "US10Y": {
-      "reading": 5.19,
-      "asOf": "2026-10-14",
+      "reading": 5.09,
+      "asOf": "2026-10-15",
       "fired": false
     },
     "KOSPI": {
-      "reading": 5532.74,
-      "asOf": "2026-10-15",
+      "reading": 5668.05,
+      "asOf": "2026-10-16",
       "fired": true
     },
     "FED_OCT": {
-      "reading": "about 33% priced for a hike (CME FedWatch, 14 Oct close)",
-      "asOf": "2026-10-14",
+      "reading": "about 27% priced for a hike (CME FedWatch via FXStreet, 16 Oct morning)",
+      "asOf": "2026-10-16",
       "fired": false
     }
   },
   "unverified": [
-    "KOSPI 15 Oct close 5,532.74 is from AP; JoongAng Daily/Trading Economics show 5,527.12 and an Investing.com intraday low of 5,483.65. KRX official close not checked. All sources are far below 6,000",
-    "KOSPI 14 Oct close 6,008.81 is derived from two sources' change figures; the 14 Oct note carried about 6,104 (one source), which was wrong. The WATCH verdict that day stands",
-    "LKOR open on 15 Oct (Xetra opens after the note); the EUR 150 figure is an illustration, not a price",
-    "US high-yield spread: last reading 3.15% (8 Oct) not refreshed; FRED could not be opened",
-    "Brazilian real: 5.03 (13 Oct) and about 5.16 (15 Oct) in one source; EWZ's 5.2 breaker not confirmed",
-    "TSMC Q4 gross-margin guide 65-67% and Q3 gross margin 66.4% each from one source; PPI consensus not found; UK GDP actual not retrieved",
-    "Gold spot (about $4,142) and GBP/USD (1.3238) from one source; Fed hike odds differ by source (CME 33%, Rabobank 37%)",
-    "GEV, CEG and VST falls (-5.5% to -6.5%) have no confirmed company reason; IREN fall has no IREN-specific news",
+    "LKOR price: Xetra EUR 150.46 at 14:21 CET on 15 Oct is intraday from one source; a London listing showed -5.34% at 17:35; official close not retrieved. Whether the platform will fill near it is unknown",
+    "KOSPI 15 Oct close 5,554.22 derived from two Korean sources' opening and close figures (AP had 5,532.74); KRX official close not checked. 16 Oct close 5,668.05 from AjuPress",
+    "VST (154.17) and NEE (78.96) each from one source; GEV intraday low 871.16 (one source) unconfirmed",
+    "Model NAV uses opening-price entries; the platform (book of record) was GBP 96,516.74 at 15 Oct midday and may read about 0.5 points better; no fresh screen",
+    "Brent $105.92 and WTI $96.50 settles (15 Oct) from one source; WTI's stated change does not match; spot gold and GBP/USD from one source each",
+    "USD/BRL 5.087 close (Rio Times) versus a live ticker of 5.16 on the same page; EWZ's 5.2 breaker not confirmed either way",
+    "Fed hike odds: CME about 27% (FXStreet, 16 Oct); Thursday's close figure not retrieved",
+    "Consensus for 16 Oct import prices, industrial production and euro-area inflation not found; release times for the last two not confirmed",
+    "SOXX itself not retrieved; 15 Oct call scored on the SOX index",
+    "US high-yield spread 3.16% is dated 13 Oct (FRED); later values not published",
     "Anthropic Q3 revenue of $16.8bn (one source) and the IREN-Anthropic contract remain unconfirmed press reports",
     "Current valuations for Nvidia, Alphabet and NextEra",
     "Most earnings dates beyond TSMC's, the Fed's and the Brazil vote",
     "Sterling hedge costs and the current Bank Rate",
     "Currency effect on unhedged TSM, LKOR and EWZ is not in the return figures",
-    "The 8% defensive sleeve is a long-duration index-linked gilt fund, not T-bills; its rate sensitivity is not in the severe-tail figure",
-    "Platform screens mix 14 Oct closes and live quotes; LKOR's EUR 164.20 probably predates Korea's 15 Oct fall",
-    "Platform holds an S&P 500 fund, a Brazil ETF and a gold fund that differ from SPY, EWZ and GLD; cost basis for the Brazil fund is unclear from the screen",
-    "Per-holding cost bases are inferred from units and planned sizes (about 9 Oct closes; LKOR near EUR 181); owner to supply the platform's transaction history",
-    "Python risk check: 61 trading days, proxies for the platform's funds, gold, gilt and cash not modelled"
+    "The 8% defensive sleeve is a long-duration index-linked gilt fund, not T-bills; its rate sensitivity is not in the severe-tail figure; NAV and provider still for the owner to confirm",
+    "Platform holds an S&P 500 fund, a Brazil ETF and a gold fund that differ from SPY, EWZ and GLD; per-holding cost bases are inferred from units"
   ]
 }
