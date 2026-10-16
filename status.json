@@ -3,13 +3,13 @@
   "asOf": "2026-10-16",
   "phase": "live-week-1",
   "verdict": "ACT",
-  "verdictReason": "Standing proposal: sell LKOR in full into cash (owner to decide; not recorded as executed). KOSPI closed 5,554.22 on 15 Oct and 5,668.05 on 16 Oct, both below the 6,000 trigger, a named LKOR thesis-breaker; LKOR traded about EUR 150.46 intraday on 15 Oct (one source, unverified), below its EUR 158.5 review level. Model NAV GBP 94,912.57 (-5.09%) vs SPY -0.90% from the 12 Oct open to the 15 Oct close; the -6% ladder step (GBP 94,000) is 0.91 points away and not hit. No other review level, target or breaker hit; GEV closed 2.9% above its review level (an unverified one-source intraday low of 871.16 is flagged; rules read on closes). changesThisWeek stays 1 until the LKOR fill is recorded.",
-  "navGBP": 94912.57,
-  "navNote": "Model NAV from opening-price entries at 15 Oct closes (price only; LINKER at its 0.7037 reference, Brazil reserve GBP 5,000). The model reproduced GBP 96,047.58 for 14 Oct. The book of record is the UMushroom platform (owner screens): NAV GBP 96,516.74 (-3.48%) at 15 Oct midday on mixed prices, so the platform may read about 0.5 points better than the model; no fresh platform screen was available for 16 Oct, so the lower, more conservative figure is used. LKOR uses an unverified intraday price.",
-  "returnPct": -5.09,
+  "verdictReason": "Standing ACT on LKOR: the KOSPI close below 6,000 (5,554.22 on 15 Oct, 5,668.05 on 16 Oct) is a named thesis-breaker. The owner decided on 16 Oct to sell HALF (32.56 of 65.1273 units) instead of the full sale I proposed, and placed the order on the platform; it shows as Pending (EUR 153.34 reference, about EUR 4,992.75) and is not recorded as filled, so changesThisWeek stays 1. Owner ruling 16 Oct: a review level counts only on a close. On that reading no review level is hit on a confirmed close (LKOR's 15 Oct Xetra close is unverified); GEV closed 926.44, 2.9% above 900. Platform-derived NAV about GBP 95,890 (-4.11%) vs SPY -0.90%; the -6% step (GBP 94,000) is about 1.9 points away, not hit.",
+  "navGBP": 95890,
+  "navNote": "Derived from the owner's platform screens of 16 Oct (book of record): the gilt fund's GBP 8,112.55 is 8.46% of NAV, which gives about GBP 95,890 (plus or minus about GBP 50 from weight rounding); the S&P fund's weight gives the same figure at 1.3299 USD per GBP. The platform's total and cash were not visible (cash is about GBP 5,900 by subtraction, derived). Prices are a mix of 15 Oct closes and live quotes. The earlier model figure (GBP 94,912.57, opening-price entries) is superseded.",
+  "returnPct": -4.11,
   "benchmarkReturnPct": -0.9,
-  "alphaPct": -4.19,
-  "drawdownFromPeakPct": -5.09,
+  "alphaPct": -3.21,
+  "drawdownFromPeakPct": -4.11,
   "changesThisWeek": 1,
   "positions": {
     "SPY": {
@@ -53,14 +53,14 @@
       "thesisNote": ""
     },
     "LKOR": {
-      "price": 150.46,
-      "asOf": "2026-10-15",
-      "source": "Paasa (Xetra), EUR, 15 Oct 14:21 CET intraday (-7.08% vs its prior close 161.92); a London listing showed -5.34% at 17:35; Xetra close not retrieved",
-      "status": "unverified",
+      "price": 155.61,
+      "asOf": "2026-10-16",
+      "source": "UMushroom platform sell screen (owner), EUR market price, 16 Oct, time not shown",
+      "status": "ok",
       "entryPrice": 181.23,
       "entryAsOf": "platform fill (units imply about EUR 181, the broker NAV reference)",
       "thesis": "breaker-triggered",
-      "thesisNote": "Breaker 'KOSPI closes below 6,000' occurred (5,554.22 on 15 Oct, 5,668.05 on 16 Oct). Intraday price is below the EUR 158.5 review level. Instruction stands: sell in full, proceeds to cash; owner places the order and records the fill."
+      "thesisNote": "Breaker 'KOSPI closes below 6,000' occurred (5,554.22 on 15 Oct, 5,668.05 on 16 Oct). Platform price EUR 155.61, 1.8% below the EUR 158.5 review level, but review levels count only on a close (owner ruling 16 Oct) and the 15 Oct Xetra close is unverified. Owner order: sell 32.56 of 65.1273 units; Pending, not filled. Units remaining after the sale: 32.5673 if filled in full."
     },
     "GEV": {
       "price": 926.44,
@@ -85,22 +85,22 @@
     "VST": {
       "price": 154.17,
       "asOf": "2026-10-15",
-      "source": "Yahoo Finance, 15 Oct 2026 close (+1.57%); single source",
-      "status": "unverified",
+      "source": "Yahoo Finance, 15 Oct 2026 close (+1.57%); confirmed by the owner's platform screen, 16 Oct",
+      "status": "ok",
       "entryPrice": 162.67,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": ""
+      "thesisNote": "Platform screen shows 154.17, matching the 15 Oct close."
     },
     "NEE": {
       "price": 78.96,
       "asOf": "2026-10-15",
-      "source": "Bullfincher, 15 Oct 2026 (+0.75%); single source",
-      "status": "unverified",
+      "source": "Bullfincher, 15 Oct 2026 (+0.75%); confirmed by the owner's platform screen, 16 Oct",
+      "status": "ok",
       "entryPrice": 77.51,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": ""
+      "thesisNote": "Platform screen shows 78.96, matching the 15 Oct close."
     },
     "EWZ": {
       "price": 41.58,
@@ -133,10 +133,10 @@
       "thesisNote": "Platform instrument is Amundi Physical Gold (USD 161.96, 6.06%, units 47.8577, added 13 Oct); GLD here is a proxy."
     },
     "LINKER": {
-      "price": 0.708,
-      "asOf": "2026-10-15",
-      "source": "UMushroom platform screen (owner), 15 Oct midday, carried forward; no verified NAV for 16 Oct (the Aviva Investors page found is a different fund)",
-      "status": "stale",
+      "price": 0.7136,
+      "asOf": "2026-10-16",
+      "source": "UMushroom platform screen (owner), 16 Oct: GBP 8,112.55 on 11,368.4809 units; NAV date not shown",
+      "status": "ok",
       "entryPrice": 0.7037,
       "entryAsOf": "2026-10-12 dealing NAV (unverified)",
       "thesis": "intact",
@@ -166,10 +166,7 @@
     }
   },
   "unverified": [
-    "LKOR price: Xetra EUR 150.46 at 14:21 CET on 15 Oct is intraday from one source; a London listing showed -5.34% at 17:35; official close not retrieved. Whether the platform will fill near it is unknown",
     "KOSPI 15 Oct close 5,554.22 derived from two Korean sources' opening and close figures (AP had 5,532.74); KRX official close not checked. 16 Oct close 5,668.05 from AjuPress",
-    "VST (154.17) and NEE (78.96) each from one source; GEV intraday low 871.16 (one source) unconfirmed",
-    "Model NAV uses opening-price entries; the platform (book of record) was GBP 96,516.74 at 15 Oct midday and may read about 0.5 points better; no fresh screen",
     "Brent $105.92 and WTI $96.50 settles (15 Oct) from one source; WTI's stated change does not match; spot gold and GBP/USD from one source each",
     "USD/BRL 5.087 close (Rio Times) versus a live ticker of 5.16 on the same page; EWZ's 5.2 breaker not confirmed either way",
     "Fed hike odds: CME about 27% (FXStreet, 16 Oct); Thursday's close figure not retrieved",
@@ -182,6 +179,9 @@
     "Sterling hedge costs and the current Bank Rate",
     "Currency effect on unhedged TSM, LKOR and EWZ is not in the return figures",
     "The 8% defensive sleeve is a long-duration index-linked gilt fund, not T-bills; its rate sensitivity is not in the severe-tail figure; NAV and provider still for the owner to confirm",
-    "Platform holds an S&P 500 fund, a Brazil ETF and a gold fund that differ from SPY, EWZ and GLD; per-holding cost bases are inferred from units"
+    "Platform holds an S&P 500 fund, a Brazil ETF and a gold fund that differ from SPY, EWZ and GLD; per-holding cost bases are inferred from units",
+    "LKOR 15 Oct Xetra close not retrieved (intraday EUR 150.46 on one source; platform EUR 155.61 on 16 Oct); the half-sale order is Pending with no fill price",
+    "Platform NAV about GBP 95,890 is derived from the gilt fund's weight (8.46%); platform total and cash were not visible",
+    "GEV intraday low 871.16 (one source) unconfirmed; moot under the close-based ruling"
   ]
 }
