@@ -46,5 +46,13 @@
     "kind": "daily",
     "file": "notes/2026-10-16.md",
     "summary": "Model NAV -5.09% since entry vs SPY -0.90% (alpha -4.19); the -6% ladder step (GBP 94,000) is 0.91 points away. KOSPI 5,554 then 5,668, both under 6,000; LKOR below its review level on an unverified price; standing proposal to sell it. Market view with five calls; three of yesterday's five hit, two still open."
+  },
+  {
+    "date": "2026-10-19",
+    "title": "IREN closes below its review level after a 3.8% chip fall; -6% step about 0.5 points away",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-19.md",
+    "summary": "Derived NAV about GBP 94,530 (-5.47%) vs SPY -2.00% (alpha -3.47) after Nasdaq -2.15% and SOX -3.83% on Friday. IREN closed 26.99, below its 28 review level: proposal to sell half, owner to decide. KOSPI closed 5,768 on Monday, still under 6,000. CoreWeave closed 61.39 (-11.9%), CDS about 1,117bp. Market view with five calls; two of the 16 Oct calls hit, one missed, two open."
   }
 ]
