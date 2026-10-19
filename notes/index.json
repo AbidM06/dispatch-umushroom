@@ -54,5 +54,13 @@
     "kind": "daily",
     "file": "notes/2026-10-19.md",
     "summary": "Derived NAV about GBP 94,530 (-5.47%) vs SPY -2.00% (alpha -3.47) after Nasdaq -2.15% and SOX -3.83% on Friday. IREN closed 26.99, below its 28 review level: proposal to sell half, owner to decide. KOSPI closed 5,768 on Monday, still under 6,000. CoreWeave closed 61.39 (-11.9%), CDS about 1,117bp. Market view with five calls; two of the 16 Oct calls hit, one missed, two open."
+  },
+  {
+    "date": "2026-10-19",
+    "title": "I got IREN wrong: what I learned from a 26% loss in a week",
+    "verdict": "ACT",
+    "kind": "reflection",
+    "file": "notes/2026-10-19-iren-lesson.md",
+    "summary": "Owner sold IREN in full after its close of 26.99 below the 28 review level, -25.7% since entry. Why it fell (neocloud credit stress, CoreWeave bonds above 16%, chip sell-off), the mistake (kept 4% against a 3% dissent on an unconfirmed contract report) and five lessons. Written for a social post."
   }
 ]

@@ -3,14 +3,14 @@
   "asOf": "2026-10-19",
   "phase": "live-week-1",
   "verdict": "ACT",
-  "verdictReason": "IREN closed 26.99 on Fri 16 Oct, below its 28 review level (24/7 Wall St and MarketBeat agree); under the owner's close-based ruling of 16 Oct this is an actRule. No named IREN thesis-breaker has occurred (Anthropic contract still unconfirmed). Proposal for the owner: sell half of IREN into cash, not the gilt fund; owner decides. Standing items: KOSPI closed 5,768.01 on 19 Oct, still under 6,000 (named LKOR thesis-breaker); the owner's half-sale of LKOR is not recorded as filled. Derived NAV about GBP 94,530 (-5.47%) vs SPY -2.00%; the -6% step (GBP 94,000) is about GBP 530 (0.5 points) away, not hit on this estimate, which carries about GBP 200 of error. Fresh platform screenshot requested.",
-  "navGBP": 94530,
-  "navNote": "Derived, not from a platform screen. Starts from the platform-derived GBP 95,890 (16 Oct, built mostly on 15 Oct closes), reprices the owner's platform units with Fri 16 Oct closes (S&P, Brazil and gold funds moved with SPY, EWZ and GLD), GBP/USD 1.3350 (FXStreet, late Fri) and EUR/USD 1.1234; cash about GBP 5,840 carried as derived; LKOR (EUR 155.61) and the gilt fund (0.7136) unchanged and unverified. At the 16 Oct rate of 1.3299 the figure would be about GBP 94,850. Replace with the platform total when the owner sends a screenshot.",
-  "returnPct": -5.47,
+  "verdictReason": "Both ACT items are now executed by the owner on 19 Oct: IREN sold in full after its close of 26.99 below the 28 review level, and the LKOR half-sale (32.56 of 65.1273 units) is confirmed filled; proceeds to cash. changesThisWeek is 2 of 2, so no further portfolio change is allowed this week unless a drawdown step fires (ladder actions are exempt). KOSPI closed 5,768.01, still under 6,000, so the LKOR breaker stays fired on the remaining half. Derived NAV about GBP 94,470 (-5.53%) vs SPY -2.00%; the -6% step (GBP 94,000) is about GBP 470 away. Fresh platform screenshot requested.",
+  "navGBP": 94470,
+  "navNote": "Derived, not from a platform screen. Starts from the platform-derived GBP 95,890 (16 Oct, built mostly on 15 Oct closes), reprices the owner's platform units with Fri 16 Oct closes (S&P, Brazil and gold funds moved with SPY, EWZ and GLD), GBP/USD 1.3350 (FXStreet, late Fri) and EUR/USD 1.1234; cash about GBP 5,840 carried as derived; LKOR (EUR 155.61) and the gilt fund (0.7136) unchanged and unverified. At the 16 Oct rate of 1.3299 the figure would be about GBP 94,850. Replace with the platform total when the owner sends a screenshot. Update 19 Oct: LKOR fill assumed at the EUR 153.34 order reference rather than 155.61 (about GBP 60 lower); selling moves value from holdings to cash and does not change NAV otherwise.",
+  "returnPct": -5.53,
   "benchmarkReturnPct": -2.0,
-  "alphaPct": -3.47,
-  "drawdownFromPeakPct": -5.47,
-  "changesThisWeek": 1,
+  "alphaPct": -3.53,
+  "drawdownFromPeakPct": -5.53,
+  "changesThisWeek": 2,
   "positions": {
     "SPY": {
       "price": 763.23,
@@ -60,7 +60,7 @@
       "entryPrice": 181.23,
       "entryAsOf": "platform fill (units imply about EUR 181, the broker NAV reference)",
       "thesis": "breaker-triggered",
-      "thesisNote": "Breaker occurred: KOSPI closed 5,554.22 (15 Oct), 5,668.05 (16 Oct) and 5,768.01 (19 Oct), all under 6,000. Platform price EUR 155.61 is 1.8% below the EUR 158.5 review level but the close is unverified. Owner order: sell 32.56 of 65.1273 units; Pending, not recorded as filled."
+      "thesisNote": "Breaker occurred: KOSPI closed 5,554.22 (15 Oct), 5,668.05 (16 Oct) and 5,768.01 (19 Oct), all under 6,000. Owner confirmed on 19 Oct that the half-sale filled: 32.56 of 65.1273 units sold, 32.5673 units remain. Fill price and time not supplied; the order reference was EUR 153.34 (about EUR 4,992.75), used here as unverified. Proceeds to cash. Platform price EUR 155.61 (16 Oct) is 1.8% below the EUR 158.5 review level; the close is unverified."
     },
     "GEV": {
       "price": 921.2,
@@ -115,12 +115,12 @@
     "IREN": {
       "price": 26.99,
       "asOf": "2026-10-16",
-      "source": "MarketBeat 16 Oct 2026 close (-11.19% from 30.39); 24/7 Wall St sidebar agrees",
-      "status": "ok",
+      "source": "Last close 26.99 (MarketBeat, 16 Oct 2026) used as the reference; owner sold the position in full on 19 Oct, fill price and time not yet supplied",
+      "status": "unverified",
       "entryPrice": 36.305,
       "entryAsOf": "2026-10-12 open",
-      "thesis": "review-level-hit",
-      "thesisNote": "Closed below the 28 review level (3.6% under) on 16 Oct; no named breaker has occurred. Anthropic contract still unconfirmed. Proposal: sell half into cash; owner decides."
+      "thesis": "sold",
+      "thesisNote": "Sold in full by the owner on 19 Oct after the close below the 28 review level (actRule). Realised loss estimated at about USD 1,400 (roughly GBP 1,050, about 1% of the starting capital) at the 26.99 reference; replace with the fill when supplied. Proceeds to cash."
     },
     "GLD": {
       "price": 382.01,
@@ -190,6 +190,9 @@
     "GBP/USD close on 16 Oct (traded above 1.3350 late); USD/BRL 5.06 vs 5.16 on one page",
     "CME December hike odds: 89% in one report, 74.3% in another",
     "LKOR Friday close not found; LINKER NAV not updated since the 16 Oct platform screen",
-    "Brent Monday and Tuesday settles of the 15 Oct week not rechecked when scoring that call"
+    "Brent Monday and Tuesday settles of the 15 Oct week not rechecked when scoring that call",
+    "IREN sale price and time (owner confirmed a full sale on 19 Oct; 26.99 close used as reference)",
+    "LKOR half-sale fill price and time (owner confirmed filled on 19 Oct; EUR 153.34 order reference used)",
+    "Whether the LKOR fill counts in the week of 12 Oct or 19 Oct; counted this week (conservative reading)"
   ]
 }
