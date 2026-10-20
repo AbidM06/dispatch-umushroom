@@ -62,5 +62,13 @@
     "kind": "reflection",
     "file": "notes/2026-10-19-iren-lesson.md",
     "summary": "Owner sold IREN in full after its close of 26.99 below the 28 review level, -25.7% since entry. Why it fell (neocloud credit stress, CoreWeave bonds above 16%, chip sell-off), the mistake (kept 4% against a 3% dissent on an unconfirmed contract report) and five lessons. Written for a social post."
+  },
+  {
+    "date": "2026-10-20",
+    "title": "CEG closes below its review level; KOSPI falls 3.7% to about 5,552; -6% step GBP 555 away",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-20.md",
+    "summary": "Derived NAV about GBP 94,555 (-5.44%) vs SPY -1.58% (alpha -3.86) after Monday's chip bounce (SOX +1.61%). CEG closed 263.19, under its 265 review level: proposal to sell half on 26 Oct, since both weekly changes are used. KOSPI about 5,552 (-3.7%), trigger stays fired. CoreWeave 2031 bonds about 15%, easing. Market view with five calls; one of yesterday's five hit, four open."
   }
 ]
