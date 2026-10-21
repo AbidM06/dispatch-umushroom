@@ -70,5 +70,13 @@
     "kind": "daily",
     "file": "notes/2026-10-20.md",
     "summary": "Derived NAV about GBP 94,555 (-5.44%) vs SPY -1.58% (alpha -3.86) after Monday's chip bounce (SOX +1.61%). CEG closed 263.19, under its 265 review level: proposal to sell half on 26 Oct, since both weekly changes are used. KOSPI about 5,552 (-3.7%), trigger stays fired. CoreWeave 2031 bonds about 15%, easing. Market view with five calls; one of yesterday's five hit, four open."
+  },
+  {
+    "date": "2026-10-21",
+    "title": "CEG, GEV and LKOR all close below review levels; UK CPI 3.5%; KOSPI rebounds about 4%; -6% step GBP 70 away",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-21.md",
+    "summary": "Derived NAV about GBP 94,070 (-5.93%) vs SPY -1.25% (alpha -4.68); sterling strength costs about GBP 380. CEG 258.84, GEV 890.33 and LKOR EUR 154.36 closed under their review levels: proposal to sell half of CEG and GEV on 26 Oct if still below on Friday, since both weekly changes are used. UK CPI 3.5% vs 3.4% expected. CoreWeave 2031 bonds about 15.6%, steady to slightly higher. Market view with five calls; two of yesterday's five hit, three open."
   }
 ]
