@@ -102,5 +102,13 @@
     "kind": "daily",
     "file": "notes/2026-10-26.md",
     "summary": "Derived NAV about GBP 92,050 (-7.95%) vs SPY -2.42% (alpha -5.53); -6% step still hit (cut GOOGL and NEE, owner decides), -10% step GBP 2,050 away. Lula won Brazil's runoff (51.8%) against our call; CME futures imply the real about 9-10% weaker, so EWZ's named breaker is treated as met (proposal: sell in full, reserve stays cash). GEV 815.00, CEG 253.45 and VST 140.16 closed below review levels; proposal: half of GEV this week. KOSPI 5,550.30, trigger stays fired. Brent $116.72, 10-year 4.999%, S&P 500 -0.52%. CoreWeave $54.24, CDS 1,129bp. Market view with five calls; four of five of Friday's hit."
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Brazil crashes after Lula's win: EWZ -19.8%, breaker confirmed; AI bounce on Anthropic IPO filing; derived NAV about GBP 91,650",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-27.md",
+    "summary": "Derived NAV about GBP 91,650 (-8.35%) vs SPY -1.72% (alpha -6.63); -6% step still hit (cut GOOGL and NEE, owner decides), -10% step GBP 1,650 away. Ibovespa -13.88%, real about 5.41, EWZ closed 34.15 (-19.82%), so the EWZ breaker is confirmed on prices (proposal: sell in full, reserve stays cash). S&P 500 +0.70% to 7,676.77 and the chip index +2.82% on Anthropic's IPO filing; KOSPI +3.1% to 5,638.34 (trigger stays fired). GEV 855.12, CEG 252.48 and VST 141.73 below review levels; LKOR EUR 153.80 below 158.5. CoreWeave $55.19, CDS and bonds not found. Brent settled $115.81, 10-year 4.987%. Market view with five calls; three of Monday's four settled calls hit, SOX missed."
   }
 ]
