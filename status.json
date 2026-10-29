@@ -1,56 +1,56 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "phase": "live-week-1",
   "verdict": "ACT",
-  "verdictReason": "EWZ named thesis-breaker still confirmed: Lula won, the real is 5.349 per dollar (breaker 5.2) and EWZ closed 34.30, 12.1% below its 39 review level; reserve stays cash; proposal: sell EWZ in full (owner decides). Drawdown -6% step (GBP 94,000) still hit on derived NAV about GBP 92,730 (-7.27%, SPY -1.24%, about GBP 1,270 beyond the line): cut GOOGL and NEE first (owner decides size); -10% step (GBP 90,000) about GBP 2,730 away. GEV (about 884, unverified) and CEG (256.35, unverified) closed below review levels; VST (146.66) back above 145; LKOR EUR 153.80 (26 Oct, stale) below 158.5; proposals otherwise unchanged (half of GEV this week, CEG next week; LKOR other half held unless KOSPI closes under 5,300). KOSPI closed 6,023.73 on 28 Oct, above the 6,000 trigger for the first time since 14 Oct. changesThisWeek 0.",
-  "navGBP": 92730,
-  "navNote": "Derived, not from a platform screen. 27 Oct estimate of GBP 91,650 plus 27 Oct one-day moves (SPY +0.49%, TSM +2.95%, NVDA +0.90%, GOOGL +1.19%, GEV +3.37% unverified, CEG +1.53% unverified, VST +3.48%, NEE +0.17% unverified, EWZ +0.44%, GLD +1.21% derived) on position sizes implied by the entries, GBP/USD held at 1.3372; Brazil and gold funds approximated; LKOR and gilt fund not re-priced. Error roughly GBP 600. Replace with the platform total when the owner sends a screenshot.",
-  "returnPct": -7.27,
-  "benchmarkReturnPct": -1.24,
-  "alphaPct": -6.03,
-  "drawdownFromPeakPct": -7.27,
+  "verdictReason": "EWZ named thesis-breaker still confirmed: Lula won, real 5.3402 per dollar (breaker 5.2); EWZ about 33.4 (derived) is about 14% below its 39 review level; reserve stays cash; proposal: sell EWZ in full (owner decides). Drawdown -6% step (GBP 94,000) still hit on derived NAV about GBP 92,590 (-7.41%, SPY -0.83%, about GBP 1,410 beyond the line): cut GOOGL and NEE first (owner decides size); -10% step (GBP 90,000) about GBP 2,590 away. GEV (878.92), CEG (258.08) and VST (142.72) closed below review levels on 28 Oct; GEV Q3 beat and raised guidance, so its named breaker did not occur. KOSPI closed 5,937.66 on 29 Oct, under the 6,000 trigger again (LKOR breaker already occurred 15 Oct, half sold 19 Oct; other half held unless KOSPI closes under 5,300). GOOGL fell about 10% after hours on 28 Oct (review level 310). changesThisWeek 0.",
+  "navGBP": 92590,
+  "navNote": "Derived, not from a platform screen. 28 Oct estimate of GBP 92,730 plus 28 Oct one-day moves (SPY +0.35%, TSM +0.60%, NVDA -1.17% derived, GOOGL +1.34%, GEV -1.81%, CEG -0.35%, VST -2.69%, NEE held, EWZ about -2.5% derived, GLD +0.33%) on position sizes implied by the entries; the same method reproduces the 28 Oct step (+GBP 1,080) within GBP 2. GBP/USD held, Brazil and gold funds approximated, LKOR and gilt fund not re-priced. Error roughly GBP 600. Replace with the platform total when the owner sends a screenshot.",
+  "returnPct": -7.41,
+  "benchmarkReturnPct": -0.83,
+  "alphaPct": -6.58,
+  "drawdownFromPeakPct": -7.41,
   "changesThisWeek": 0,
   "positions": {
     "SPY": {
-      "price": 769.1,
-      "asOf": "2026-10-27",
-      "source": "Yahoo Finance daily history, 27 Oct 2026 close (S&P 500 index 7,722.60, +0.60%)",
+      "price": 772.35,
+      "asOf": "2026-10-28",
+      "source": "ChartRow, 28 Oct 2026 close (+0.35%); S&P 500 index 7,743.98 (+0.28%, Cappnotes)",
       "status": "ok",
       "entryPrice": 778.78,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Platform instrument is an iShares Core S&P 500 fund; SPY here is a proxy. 7.6% above the 715 review level. S&P 500 index 7,722.60 (+0.60%)."
+      "thesisNote": "Platform instrument is an iShares Core S&P 500 fund; SPY here is a proxy. 8.0% above the 715 review level. S&P 500 index 7,743.98 (+0.28%). Fed held 10-2 (two votes for a hike); December hike odds about 82% to 85%."
     },
     "TSM": {
-      "price": 436.87,
-      "asOf": "2026-10-27",
-      "source": "alphasquare.co.kr daily table, 27 Oct 2026 close (+2.95%); consistent with 26 Oct close 424.37",
+      "price": 439.51,
+      "asOf": "2026-10-28",
+      "source": "alphasquare.co.kr daily table, 28 Oct 2026 close (+0.60%)",
       "status": "ok",
       "entryPrice": 453.55,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "9.2% above the 400 review level. No named thesis-breaker occurred."
+      "thesisNote": "9.9% above the 400 review level. No named thesis-breaker occurred."
     },
     "NVDA": {
-      "price": 217.94,
-      "asOf": "2026-10-27",
-      "source": "Gotrade Daily, 27 Oct 2026 close (+0.90% on 216.00)",
-      "status": "ok",
+      "price": 215.39,
+      "asOf": "2026-10-28",
+      "source": "Derived: 27 Oct close 217.94 x (1 - 1.17%), Yahoo Finance/Stocktwits -1.17%; close not confirmed",
+      "status": "unverified",
       "entryPrice": 228.73,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "9.0% above the 200 review level. Hyperscaler capex not cut; Microsoft and Alphabet report 28 Oct after the close."
+      "thesisNote": "7.7% above the 200 review level (derived). Reuters reports a DOJ antitrust inquiry into its $12.93bn Hugging Face deal: not an export control or funding failure, so no named breaker. Alphabet kept its 2026 capex range and Microsoft did not cut; hyperscaler capex not cut."
     },
     "GOOGL": {
-      "price": 320.58,
-      "asOf": "2026-10-27",
-      "source": "Gotrade Daily, 27 Oct 2026 close (+1.19% on 316.80)",
+      "price": 324.89,
+      "asOf": "2026-10-28",
+      "source": "MarketBeat price history, 28 Oct 2026 close (+1.34%)",
       "status": "ok",
       "entryPrice": 351.86,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "3.4% above the 310 review level. First to cut under the -6% ladder step (standing recommendation: sell in full into cash, about GBP 3,640); owner decides. Q3 results 28 Oct after the close."
+      "thesisNote": "4.8% above the 310 review level at the close, but about -10% after hours on a revenue and EPS miss, weak ads and free cash flow of about -$9.1bn (Motley Fool, single source); capex quarter $51.4bn, 2026 guide $195bn to $205bn unchanged, 2027 to 'increase significantly'. An open near 292 would be below review; a close below 310 is a further actRule. First to cut under the -6% ladder step (standing recommendation: sell in full into cash, about GBP 3,690); owner decides."
     },
     "LKOR": {
       "price": 153.8,
@@ -60,57 +60,57 @@
       "entryPrice": 181.23,
       "entryAsOf": "platform fill (units imply about EUR 181, the broker NAV reference)",
       "thesis": "breaker-triggered",
-      "thesisNote": "Breaker occurred on 15 Oct (KOSPI closed below 6,000 on every session 15 to 27 Oct). KOSPI closed 6,023.73 on 28 Oct (+6.8%, AP; Ajupress 6,012.4), the first close above 6,000 since 14 Oct. Half sold 19 Oct; 32.5673 units remain. Last verified Xetra close EUR 153.80 (26 Oct) is 3.0% below the EUR 158.5 review level; 27 Oct not found. Proposal unchanged: hold the remaining half through Samsung's results (Thu 29 Oct); sell if the KOSPI closes under 5,300. Owner decides."
+      "thesisNote": "Breaker occurred on 15 Oct. KOSPI closed 5,937.66 on 29 Oct (-1.24%, SBS and TradingKey), under the 6,000 trigger again after 6,012.44 on 28 Oct (SBS-implied; AP had 6,023.73). Samsung Q3 operating profit 107.4tn won, net profit below analysts; shares -4.13%. Half sold 19 Oct; 32.5673 units remain. Last verified Xetra close EUR 153.80 (26 Oct) is 3.0% below the EUR 158.5 review level; 27 and 28 Oct not found (Deutsche Boerse page empty). Proposal unchanged: hold the remaining half; sell if the KOSPI closes under 5,300. Owner decides."
     },
     "GEV": {
-      "price": 883.94,
-      "asOf": "2026-10-27",
-      "source": "Derived: 26 Oct close 855.12 x (1+3.37%) from TradingKey; MarketBeat showed 897.17 mid-session; close not confirmed",
-      "status": "unverified",
+      "price": 878.92,
+      "asOf": "2026-10-28",
+      "source": "ChartRow, 28 Oct 2026 close (-1.81%); Cappnotes -1.90%",
+      "status": "ok",
       "entryPrice": 999.99,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Below the 900 review level on every reading found (about 1.8% below on the derived close): actRule. Below-level closes: 20, 22, 23, 26 and (unverified) 27 Oct. No named thesis-breaker has occurred; Q3 margin/backlog today before the US open. Proposal stands: sell half this week (second non-ladder change with EWZ); owner could wait for the print. Owner decides."
+      "thesisNote": "Closed below the 900 review level (2.3% under): actRule. Below-level closes: 20, 22, 23, 26, 27 (unverified) and 28 Oct. Q3 on 28 Oct: orders $29bn (+96% organic), backlog $197bn, adjusted EBITDA margin 15.4%, 2026 guidance raised, $9bn Trench deal (Yahoo Finance): the named breaker (margin miss or backlog conversion slowing) did NOT occur. Proposal stands under the review-level rule: sell half this week (owner could wait one session given the print). Owner decides."
     },
     "CEG": {
-      "price": 256.35,
-      "asOf": "2026-10-27",
-      "source": "stockanalysis.com history row 27 Oct (may be intraday); HDFC Sky reports +2.53% (about 258.9)",
-      "status": "unverified",
+      "price": 258.08,
+      "asOf": "2026-10-28",
+      "source": "ChartRow, 28 Oct 2026 close (-0.35%)",
+      "status": "ok",
       "entryPrice": 300.1,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Below the 265 review level on both readings (3.3% below at 256.35): actRule. DOE offered a conditional $5bn loan for nuclear upgrades (HDFC Sky). Proposal: sell half next week, earlier if the -10% step fires. Owner decides."
+      "thesisNote": "Below the 265 review level (2.6% under): actRule. DOE conditional $5bn loan offered on 27 Oct. Proposal: sell half next week, earlier if the -10% step fires. Owner decides."
     },
     "VST": {
-      "price": 146.66,
-      "asOf": "2026-10-27",
-      "source": "ChartRow, 27 Oct 2026 at market close (+3.48% on 141.73)",
+      "price": 142.72,
+      "asOf": "2026-10-28",
+      "source": "ChartRow, 28 Oct 2026 close (-2.69%)",
       "status": "ok",
       "entryPrice": 162.67,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "Closed back above the 145 review level (1.1% above). Proposal to sell half next week lapses unless it closes below 145 again. Owner decides."
+      "thesisNote": "Closed back below the 145 review level (1.6% under) after one close above: actRule again. Proposal to sell half next week returns. Owner decides."
     },
     "NEE": {
       "price": 82.18,
       "asOf": "2026-10-27",
-      "source": "Digrin price page \"current price\" for Oct 2026; date not stated, single source",
-      "status": "unverified",
+      "source": "Carried: Digrin price page (date not stated, single source); 28 Oct close not found",
+      "status": "stale",
       "entryPrice": 77.51,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "17.4% above the 70 review level. Second to cut under the -6% ladder step (standing recommendation: sell in full into cash, about GBP 6,360); owner decides."
+      "thesisNote": "17.4% above the 70 review level on the carried price. Second to cut under the -6% ladder step (standing recommendation: sell in full into cash, about GBP 6,360 on the stale price); owner decides."
     },
     "EWZ": {
-      "price": 34.3,
-      "asOf": "2026-10-27",
-      "source": "MarketBeat, close 27 Oct 2026 16:10 ET (+0.15 on 34.15)",
-      "status": "ok",
+      "price": 33.44,
+      "asOf": "2026-10-28",
+      "source": "Derived: 27 Oct close 34.30 x (1 - 2.68% Ibovespa) x (5.349 / 5.3402 USD/BRL); close not found",
+      "status": "unverified",
       "entryPrice": 43.67,
       "entryAsOf": "2026-10-12 open",
       "thesis": "breaker-triggered",
-      "thesisNote": "THESIS-BREAKER CONFIRMED: Lula won (51.79%) and the real is 5.349 per dollar on 27 Oct (Cappnotes) against the 5.2 breaker. EWZ closed 34.30, 12.1% below the 39 review level. Reserve rule: Lula won, so BR_RESERVE stays cash. Proposal: sell in full into cash (about GBP 4,670, approximated); one change; owner decides."
+      "thesisNote": "THESIS-BREAKER CONFIRMED: Lula won (51.79%) and the real is 5.3402 per dollar on 28 Oct (Cappnotes) against the 5.2 breaker. EWZ about 14% below the 39 review level (derived). Reserve rule: Lula won, so BR_RESERVE stays cash. Proposal: sell in full into cash (about GBP 4,590, derived); one change; owner decides."
     },
     "IREN": {
       "price": 26.99,
@@ -123,14 +123,14 @@
       "thesisNote": "Sold in full by the owner on 19 Oct after the close below the 28 review level (actRule). Realised loss estimated at about USD 1,400 (roughly GBP 1,050, about 1% of the starting capital) at the 26.99 reference; replace with the fill when supplied. Proceeds to cash."
     },
     "GLD": {
-      "price": 372.27,
-      "asOf": "2026-10-27",
-      "source": "Derived: 26 Oct close 367.82 x (1+1.21%) from Cappnotes; not confirmed",
-      "status": "unverified",
+      "price": 373.51,
+      "asOf": "2026-10-28",
+      "source": "ChartRow, 28 Oct 2026 close (+0.33%); Digrin headline price 373.51",
+      "status": "ok",
       "entryPrice": 382.605,
       "entryAsOf": "2026-10-12 open",
       "thesis": "intact",
-      "thesisNote": "3.4% above the 360 review level (derived price). Gold futures $4,073.10 (+0.86%). Platform instrument is an Amundi gold fund; GLD is a proxy."
+      "thesisNote": "3.8% above the 360 review level. Gold Dec futures $4,051.60 (-0.53%) on 28 Oct, about $4,028 on Thursday morning. Platform instrument is an Amundi gold fund; GLD is a proxy."
     },
     "LINKER": {
       "price": 0.7136,
@@ -146,38 +146,36 @@
   "triggers": {
     "HY_SPREAD": {
       "reading": 3.3,
-      "asOf": "2026-10-26",
-      "fired": false
-    },
-    "US10Y": {
-      "reading": 4.995,
-      "asOf": "2026-10-27",
-      "fired": false
-    },
-    "KOSPI": {
-      "reading": 6023.73,
       "asOf": "2026-10-28",
       "fired": false
     },
+    "US10Y": {
+      "reading": 5.044,
+      "asOf": "2026-10-28",
+      "fired": false
+    },
+    "KOSPI": {
+      "reading": 5937.66,
+      "asOf": "2026-10-29",
+      "fired": true
+    },
     "FED_OCT": {
-      "reading": "Polymarket: hold 93.9% for 28 Oct (Cappnotes, 27 Oct close); December hike 74.5%; decision 18:00 UK today",
-      "asOf": "2026-10-27",
+      "reading": "Fed held 3.75%-4.00% on 28 Oct, 10-2 (Cook and Hammack voted for a hike); no hike delivered; December hike odds about 82% (Polymarket) to 85% (futures)",
+      "asOf": "2026-10-28",
       "fired": false
     }
   },
   "unverified": [
-    "SPY is a quote (Yahoo); the platform S&P fund, Brazil fund and gold fund are proxied by SPY, EWZ and GLD",
-    "Derived NAV about GBP 92,730: Brazil fund and gold fund approximated, GBP/USD held at 1.3372, error about GBP 600; the platform is the book of record",
-    "GEV close derived from +3.37% (TradingKey); MarketBeat showed 897.17 mid-session",
-    "CEG close 256.35 (stockanalysis, may be intraday) against a +2.53% report (about 258.9)",
-    "NEE price (Digrin, date not stated, single source); GLD derived from a +1.21% report",
-    "LKOR: 27 Oct Xetra close not found; 26 Oct EUR 153.80 carried stale",
-    "KOSPI 28 Oct close: AP 6,023.73 against Ajupress 6,012.4; both above 6,000",
-    "Brent contract basis: Il Sole $115.88 (December, matches Tuesday's $113.88 settle) against AP $111.10; Hong Kong close (AP +0.2%, Il Sole -0.7%)",
-    "Conference Board October print 91.7 from one source; its 80.5 forecast was carried from 26 Oct and not re-checked",
-    "CoreWeave Tuesday close derived (+7.94% on 55.19); CDS 1,148bp is the morning of 26 Oct; 2031 bond yield not found for 26 or 27 Oct (record 16.009% undated)",
-    "HY spread latest 26 Oct (3.30%); later dates not found",
-    "GE Vernova release time and consensus not found",
+    "SPY is a quote (ChartRow); the platform S&P fund, Brazil fund and gold fund are proxied by SPY, EWZ and GLD",
+    "Derived NAV about GBP 92,590: Brazil fund and gold fund approximated, GBP/USD held at 1.3372, error about GBP 600; the platform is the book of record",
+    "NVDA close derived from -1.17% (Yahoo Finance); EWZ derived from the Ibovespa (-2.68%) and the real; GLD from ChartRow",
+    "NEE price carried from 27 Oct (Digrin, date not stated, single source); LKOR 26 Oct Xetra close carried, 27 and 28 Oct not found",
+    "KOSPI 28 Oct close: SBS-implied 6,012.44 against AP's 6,023.73 (both above 6,000); 29 Oct close 5,937.66 from SBS and TradingKey",
+    "Brent contract basis: AP $114.32 against NordFX $110.08 on Thursday morning; Wednesday settle $115.32 (Cappnotes) cross-checks with AP's implied prior close",
+    "HY spread latest 28 Oct (about 3.30%, ICE BofA via Cappnotes); FRED lags",
+    "CoreWeave: close $63.93 (TradingKey, Gotrade) with no day range; five-year CDS 1,041.4bp (TokenPost, published 27 Oct, reading date implied, different source from the 1,148bp of 26 Oct); 2031 bond yield not found (last dated 15.76% on 22 Oct)",
+    "Alphabet capex, cash-flow and debt figures and Microsoft's results are from one source (Motley Fool/Malay Mail); no Microsoft capex guidance found",
+    "GDP consensus +3.0% (NordFX) to +3.2% (TraderFactor); PCE consensus from TraderFactor; ECB and Lagarde UK times are my conversion; Amazon, Apple and Intel times and consensus not found",
     "LINKER NAV (16 Oct); provider and ISIN for the owner to confirm",
     "IREN sale and LKOR fill prices",
     "Size of the ladder cut (portfolio.json silent) and whether the power-name sales count as one change or three",

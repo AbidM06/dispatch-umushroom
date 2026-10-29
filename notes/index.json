@@ -118,5 +118,13 @@
     "kind": "daily",
     "file": "notes/2026-10-28.md",
     "summary": "Derived NAV about GBP 92,730 (-7.27%) vs SPY -1.24% (alpha -6.03); -6% step still hit (cut GOOGL and NEE, owner decides), -10% step GBP 2,730 away. S&P 500 +0.60% to 7,722.60 and the chip index +3.60% on Tuesday; KOSPI +6.8% to 6,023.73 after SK Hynix's record quarter, first close above 6,000 since 14 Oct. EWZ 34.30 still below 39 (breaker confirmed, proposal: sell); GEV and CEG below review levels (unverified closes), VST back above 145. RBNZ surprise hold. CoreWeave about $59.57, CDS 1,148bp (26 Oct). Market view with five calls; two of yesterday's three settled calls hit, consumer confidence missed."
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Hawkish Fed hold, Alphabet -10% after hours, KOSPI back under 6,000 after Samsung; derived NAV about GBP 92,590",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-10-29.md",
+    "summary": "Derived NAV about GBP 92,590 (-7.41%) vs SPY -0.83% (alpha -6.58); -6% step still hit (cut GOOGL and NEE, owner decides), -10% step GBP 2,590 away. Fed held 10-2 with two votes for a hike, December hike odds about 82-85%; S&P 500 +0.28% to 7,743.98, chip index +1.75%, 10-year 5.044%. Alphabet about -10% after hours; Microsoft up. GE Vernova Q3 beat and raised guidance (breaker not met) but closed 878.92 under its 900 review level; CEG 258.08 and VST 142.72 also under; EWZ breaker still confirmed. KOSPI 5,937.66 (-1.24%), trigger fired again. CoreWeave $63.93, CDS 1,041bp (down 107bp). Market view with five calls; three of yesterday's five hit."
   }
 ]
