@@ -126,5 +126,13 @@
     "kind": "daily",
     "file": "notes/2026-10-29.md",
     "summary": "Derived NAV about GBP 92,590 (-7.41%) vs SPY -0.83% (alpha -6.58); -6% step still hit (cut GOOGL and NEE, owner decides), -10% step GBP 2,590 away. Fed held 10-2 with two votes for a hike, December hike odds about 82-85%; S&P 500 +0.28% to 7,743.98, chip index +1.75%, 10-year 5.044%. Alphabet about -10% after hours; Microsoft up. GE Vernova Q3 beat and raised guidance (breaker not met) but closed 878.92 under its 900 review level; CEG 258.08 and VST 142.72 also under; EWZ breaker still confirmed. KOSPI 5,937.66 (-1.24%), trigger fired again. CoreWeave $63.93, CDS 1,041bp (down 107bp). Market view with five calls; three of yesterday's five hit."
+  },
+  {
+    "date": "2026-11-02",
+    "title": "AI-spending rout: Alphabet -12.6%, chips -7.2%; derived NAV about GBP 90,320, GBP 320 above the -10% step",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-11-02.md",
+    "summary": "Covers Thu 29 and Fri 30 Oct (no note on 30 Oct). Derived NAV about GBP 90,320 (-9.68%) vs SPY -2.96% (alpha -6.72); -6% step still hit, -10% step (GBP 90,000) about GBP 320 away and inside the error: check the platform NAV. S&P 500 -1.82% to 7,580.07, Nasdaq-100 -3.5%, chip index -7.2% after Alphabet, Amazon and Intel; 10-year about 4.93%, December hike odds 70.7%. GOOGL 279.84, GEV, CEG, VST under review levels; GLD 355.78 newly under 360; EWZ breaker still confirmed. KOSPI 5,730.74 then 5,859.08. CoreWeave $54.97 (-14%). Five new calls; of the five from 29 Oct, three hit, one missed and one was unclear."
   }
 ]
