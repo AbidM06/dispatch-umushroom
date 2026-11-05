@@ -142,5 +142,13 @@
     "kind": "daily",
     "file": "notes/2026-11-04.md",
     "summary": "Covers Mon 2 and Tue 3 Nov (no note on 3 Nov). Derived NAV about GBP 90,720 (-9.28%) vs SPY -3.13% (alpha -6.15); -6% step still hit, -10% step (GBP 90,000) about GBP 720 away and inside the error: check the platform NAV. S&P 500 -0.51% to 7,541.40 then +0.36% to 7,568.92; SOX -3.37% then +2.63%; Democrats won the House and Senate overnight, Nasdaq-100 futures down about 2%. EWZ breaker confirmed again (real near 5.48), GOOGL, CEG, VST under review levels, GLD 0.2% under; TSM closed Monday under 400. KOSPI 5,648.79 then 5,683.80. Five new calls; of the 2 Nov calls one hit, one missed and three are open."
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Democrats' win hits data-centre and power names while the Dow jumps 3%; KOSPI -5.3%; derived NAV about GBP 89,470, under the -10% step",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-11-05.md",
+    "summary": "S&P 500 +1.58% to 7,688.62, Dow +3.03%, SOX -3.13%; Vistra -13.8%, GEV -9.3%, CEG -6.7% after Texas elected a Democratic governor proposing a data-centre moratorium; Brent $94.62 (-8%); Copom held 13.75%; ADP +86k. KOSPI closed 5,383.80 (-5.28%). Derived NAV about GBP 89,470 (-10.53%) vs SPY -1.54% (alpha -8.99): -10% step hit on the derived number, inside the error, so confirm the platform NAV. EWZ has two breakers (real 5.45, Copom no cut); NEE above its 84 target; TSM, GOOGL, LKOR, GEV, CEG, VST under review levels. CoreWeave -10.1% to $48.33. Five calls; of the 4 Nov note's calls: 3 hit, 1 miss, 1 open."
   }
 ]
