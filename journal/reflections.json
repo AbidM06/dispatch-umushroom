@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "week": 4,
+    "date": "2026-11-09",
+    "returnPct": -12.61,
+    "benchmarkReturnPct": -5.58,
+    "alphaPct": -7.03,
+    "text": "Week 4 review (derived figures, error about GBP 1,500). The book is down 12.61% against SPY down 5.58%, so the portfolio has lost about 7 points more than the index. The concentration that was meant to earn alpha, AI compute and AI power, is where the loss sits: GEV, CEG and VST are down 17% to 23%, NVDA and TSM 17% to 18%, and the Korea fund 24%. These holdings all depend on the same assumption, that the data-centre build-out keeps its pace, and this fortnight's moves (the AI-spending worries, then the Democrats' win and the 5 Nov chip rout) hit them together; the severe-tail test assumed such a correlation and its -19% figure was beyond the -18% limit from the start. The calls that worked were about direction and levels over days (all five on 5 Nov hit); the calls that missed were oil levels. The ladder has done its job as a warning: the -6% and -10% steps are hit and the -14% step is about GBP 1,400 away, but none of the ladder sales or breaker sales (EWZ, LKOR's remaining half) have been made, so the paper loss is being carried by decision, not by rule. Open questions for the owner: whether to execute the -10% cut, and how to treat the gilt fund and the cash estimate if the -14% step is reached. Not investment advice."
+  }
+]

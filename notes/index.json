@@ -150,5 +150,13 @@
     "kind": "daily",
     "file": "notes/2026-11-05.md",
     "summary": "S&P 500 +1.58% to 7,688.62, Dow +3.03%, SOX -3.13%; Vistra -13.8%, GEV -9.3%, CEG -6.7% after Texas elected a Democratic governor proposing a data-centre moratorium; Brent $94.62 (-8%); Copom held 13.75%; ADP +86k. KOSPI closed 5,383.80 (-5.28%). Derived NAV about GBP 89,470 (-10.53%) vs SPY -1.54% (alpha -8.99): -10% step hit on the derived number, inside the error, so confirm the platform NAV. EWZ has two breakers (real 5.45, Copom no cut); NEE above its 84 target; TSM, GOOGL, LKOR, GEV, CEG, VST under review levels. CoreWeave -10.1% to $48.33. Five calls; of the 4 Nov note's calls: 3 hit, 1 miss, 1 open."
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Worst day since April 2025 on Thu as AI chips slide, KOSPI -6%; derived NAV about GBP 87,390, -10% step hit and -14% step about GBP 1,390 away",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-11-09.md",
+    "summary": "S&P 500 -4.36% to 7,353.73 on Thu 5 Nov (SOX more than -12%, Nvidia -9.3%), then +0.31% to 7,376.86 on Fri after payrolls +165k (week -2.7%); KOSPI -6.02% to 5,059.69 on Fri. Derived NAV about GBP 87,390 (-12.61%) vs SPY -5.58% (alpha -7.03): -6% and -10% steps hit, -14% step (GBP 86,000) about GBP 1,390 away, inside the error, so confirm the platform NAV. EWZ breakers stand; NEE above target; TSM, NVDA, GOOGL, LKOR, GEV, CEG, VST under review levels. CoreWeave $46.40, CDS about 1,155bp (6 Nov). Five calls; all five of the 5 Nov calls hit."
   }
 ]
