@@ -158,5 +158,13 @@
     "kind": "daily",
     "file": "notes/2026-11-09.md",
     "summary": "S&P 500 -4.36% to 7,353.73 on Thu 5 Nov (SOX more than -12%, Nvidia -9.3%), then +0.31% to 7,376.86 on Fri after payrolls +165k (week -2.7%); KOSPI -6.02% to 5,059.69 on Fri. Derived NAV about GBP 87,390 (-12.61%) vs SPY -5.58% (alpha -7.03): -6% and -10% steps hit, -14% step (GBP 86,000) about GBP 1,390 away, inside the error, so confirm the platform NAV. EWZ breakers stand; NEE above target; TSM, NVDA, GOOGL, LKOR, GEV, CEG, VST under review levels. CoreWeave $46.40, CDS about 1,155bp (6 Nov). Five calls; all five of the 5 Nov calls hit."
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Best day since April on Mon, then hot CPI and Nvidia -5.5% on Tue; derived NAV about GBP 88,530, -10% step still hit and -14% step about GBP 2,530 away",
+    "verdict": "ACT",
+    "kind": "daily",
+    "file": "notes/2026-11-11.md",
+    "summary": "S&P 500 +2.35% to 7,549.94 on Mon 9 Nov as chips rebounded, then -0.38% to 7,520.93 on Tue after October CPI (+0.4%, core +0.3% vs 0.2% forecast); Nvidia -5.47% to 168.89 on a board investigation of its CEO; 10-year about 5.0%; KOSPI +4.39% Tue and +2.4% Wed; TSMC October sales +59.7% y/y. Derived NAV about GBP 88,530 (-11.47%) vs SPY -3.71% (alpha -7.77): -6% and -10% steps hit (the -10% level is inside the error), -14% step not hit. EWZ breakers stand; NEE above target; CEG back above its review level; TSM (0.9% under), NVDA, GOOGL, LKOR, GEV, VST under. CoreWeave $48.73, beat and raised guide. Five calls; of the 9 Nov calls: 2 hit, 3 open."
   }
 ]
